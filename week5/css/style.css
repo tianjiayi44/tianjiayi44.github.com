@@ -56,6 +56,15 @@
 #column1 {
     width: 75%;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #f1f1f1;
+}
 
 @media screen and (max-width: 600px) {
     .row {
