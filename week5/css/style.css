@@ -1,0 +1,71 @@
+#container {
+    background-color: #f1f1f1;
+    max-width: 1024px;
+    margin: auto;
+    padding: 30px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    color: rgb(149, 0, 255);
+    background-image: url("../images/azurLane.jpg");
+    background-size: cover;
+}
+
+.header img {
+    object-position: center;
+}
+
+.topnav {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4px;
+}
+
+.topnav a {
+    color: #e19ae5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 177, 255);
+    color: black;
+    text-decoration: underline black;
+}
+
+.row {
+    display: flex;
+    background-color: thistle;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    max-width: 1024px;
+}
+
+.column {
+    width: 33.33%;
+}
+
+#column1 {
+    width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+    .column {
+        width: 100%;
+    }
+}
+
+h1 {
+    margin-top: 5px;
+}
