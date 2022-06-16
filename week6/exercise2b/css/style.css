@@ -9,17 +9,20 @@
 .sidebar { grid-area: sidebar;}
 .textContent { grid-area: textContent;}
 .footer { grid-area: footer;}
+.blank { grid-area: blank;}
 
 .grid-container {
     display: grid;
     grid-template-areas:
-        'logo logo phoneNo phoneNo phoneNo phoneNo phoneNo phoneNo'
+        'logo logo blank blank phoneNo phoneNo phoneNo phoneNo'
         'menu menu menu menu menu menu menu menu'
         'imgSlideshow imgSlideshow imgSlideshow imgSlideshow imgSlideshow imgSlideshow imgSlideshow imgSlideshow'
         'feat1 feat1 feat2 feat2 feat3 feat3 feat4 feat4'
         'textContent textContent textContent textContent textContent textContent sidebar sidebar'
         'footer footer footer footer footer footer footer footer';
     gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: 80px 50px 200px 160px 200px 50px;
     background-color: thistle;
     padding: 10px;
 }

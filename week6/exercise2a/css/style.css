@@ -14,16 +14,19 @@
         'logo logo menu menu menu menu'
         'imgSlideshow imgSlideshow imgSlideshow imgSlideshow imgSlideshow imgSlideshow'
         'feat1 feat1 feat2 feat2 feat3 feat3'
-        'sidebar sidebar textContent textContent textContent textContent'
+        'sidebar textContent textContent textContent textContent textContent'
         'footer footer footer footer footer footer';
     gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 40px 150px 150px 200px auto;
     background-color: thistle;
     padding: 10px;
+    text-align: center;
 }
 
 .grid-container div {
     background-color: antiquewhite;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 20px;
 }
