@@ -1,0 +1,85 @@
+#background {
+    width: 100%;
+    height: 99vh;
+    background-image: url(../image/blue-archive-background.jpg);
+    background-size: cover;
+}
+
+.nav {
+    padding: 10px 5px;
+    height: auto;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+img {
+    width: 50px;
+    padding-left: 1%;
+}
+
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menubar a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 12px;
+}
+
+.menubar a:hover {
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px 12px;
+    background-color: azure;
+}
+
+.bottomBox {
+    padding: 10px 5px;
+    height: auto;
+}
+
+.by {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    display: flex;
+    width: 100%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.centerLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.center a {
+    display: flex;
+}
+
+.bottomRight{
+    border: 2px white solid;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+h4 {
+    color: red;
+}

@@ -1,0 +1,29 @@
+.blogMenu { grid-area: blogMenu;}
+.logo { grid-area: logo;}
+.phoneNo {grid-area: phoneNo;}
+.menu { grid-area: menu;}
+.imgSlideshow { grid-area: imgSlideshow;}
+.sidebar { grid-area: sidebar;}
+.textContent { grid-area: textContent;}
+.footer { grid-area: footer;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'blogMenu blogMenu blogMenu blogMenu blogMenu blogMenu blogMenu blogMenu'
+        'logo logo phoneNo phoneNo phoneNo phoneNo phoneNo phoneNo'
+        'logo logo menu menu menu menu menu menu'
+        'imgSlideshow imgSlideshow imgSlideshow imgSlideshow imgSlideshow imgSlideshow sidebar sidebar'
+        'textContent textContent textContent textContent textContent textContent sidebar sidebar'
+        'footer footer footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: thistle;
+    padding: 10px;
+}
+
+.grid-container div {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
