@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0%;
     font-family: sans-serif;
 }
 
-.header{
+.header {
     position: relative;
     background-image: url(../images/Bg\ Shape@2x.png);
     background-repeat: no-repeat;
@@ -72,15 +72,17 @@ body{
     color: rgb(67, 183, 255);
 }
 
-.blank {grid-area: blank;}
+.blank {
+    grid-area: blank;
+}
 
 .headerGrid {
     display: grid;
-    grid-template-areas: 
-    'menu logo logo blank blank topMenu topMenu topMenu'
-    'menu headerText headerText headerText headerText headerText headerText headerText'
-    'menu headerText headerText headerText headerText headerText headerText headerText'
-    'menu headerText headerText headerText headerText headerText headerText headerText';
+    grid-template-areas:
+        'menu logo logo blank blank topMenu topMenu topMenu'
+        'menu headerText headerText headerText headerText headerText headerText headerText'
+        'menu headerText headerText headerText headerText headerText headerText headerText'
+        'menu headerText headerText headerText headerText headerText headerText headerText';
     gap: 50px;
     padding: 30px 60px;
     height: 500px;
@@ -99,7 +101,7 @@ body{
     left: 60%;
 }
 
-.mouseIcon{
+.mouseIcon {
     position: absolute;
     bottom: 5%;
     left: 50%;
@@ -139,19 +141,65 @@ body{
     margin-top: 0%;
 }
 
-.box2{
+.box2 {
     position: relative;
-    height: 700px;
+    height: 900px;
 }
 
 .topBox2 {
-    padding: 0px 100px;
+    padding: 100px 150px;
 }
 
-.mainbox3{
+.topBox2 h6 {
+    color: cornflowerblue;
+    margin-bottom: 0%;
+}
+
+.topBox2 h1 {
+    color: rgb(72, 70, 70);
+    margin-bottom: 0%;
+}
+
+.box2Grid {
+    display: grid;
+    grid-template-areas:
+        'box2a box2b box2c'
+        'box2d box2e box2f';
+    gap: 50px;
+    padding: 0px 150px;
+    height: 450px;
+    align-items: center;
+    justify-items: center;
+}
+
+.box2a {
+    grid-area: box2a;
+}
+
+.box2b {
+    grid-area: box2b;
+}
+
+.box2c {
+    grid-area: box2c;
+}
+
+.box2d {
+    grid-area: box2d;
+}
+
+.box2e {
+    grid-area: box2e;
+}
+
+.box2f {
+    grid-area: box2f;
+}
+
+.mainbox3 {
     display: flex;
 }
 
-.footer{
+.footer {
     display: flex;
 }
