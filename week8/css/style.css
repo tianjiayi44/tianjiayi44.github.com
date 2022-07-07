@@ -1,0 +1,62 @@
+body {
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    margin: auto;
+    background-color: paleturquoise;
+}
+
+legend {
+    color: olivedrab;
+}
+
+.name {
+    width: 48%;
+}
+
+.emailTel {
+    display: flex;
+}
+
+.e {
+    width: 50%;
+}
+
+.p {
+    width: 50%;
+}
+
+.email {
+    width: 96%;
+}
+
+.tel {
+    width: 96%;
+}
+
+.streetAddr {
+    width: 98%;
+}
+
+.country {
+    width: 49.5%;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: rgb(49, 255, 186);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+p {
+    font-size: xx-large;
+}
