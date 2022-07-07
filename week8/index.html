@@ -12,12 +12,12 @@
         <fieldset>
             <legend>Farmer Registration Form</legend>
             Name<br>
-            <input type="text" class="name" placeholder="First" name="firstName">
-            <input type="text" class="name" placeholder="Last" name="lastName"><br><br>
+            <input type="text" class="name" placeholder="First" name="firstName" required>
+            <input type="text" class="name" placeholder="Last" name="lastName" required><br><br>
             <div class="emailTel">
                 <div class="e">
                     Email
-                    <input type="email" class="email" name="email">
+                    <input type="email" class="email" name="email" required>
                 </div>
                 <div class="p">
                     Phone
@@ -34,7 +34,7 @@
             <input type="text" class="name" placeholder="City" name="city">
             <input type="text" class="name" placeholder="Region" name="region"><br><br>
             <input type="text" class="name" placeholder="Postal / Zip Code" name="postal">
-            <select id="country" name="country" class="country">
+            <select id="country" name="country" class="country" required>
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
                 <option value="Albania">Albania</option>
