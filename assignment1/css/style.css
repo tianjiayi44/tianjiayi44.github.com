@@ -1,0 +1,403 @@
+body {
+    max-width: 1440px;
+    margin: 0%;
+    position: relative;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#homeHeader {
+    display: flex;
+    margin: auto;
+    background-image: url(../img/1131146.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+}
+
+.topNav {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center
+}
+
+ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    border: 1px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    padding: 10px 20px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li :hover {
+    color: lightskyblue;
+    border-radius: 5px;
+    background-color: rgb(0, 128, 255);
+}
+
+.title {
+    display: flex;
+    margin: auto;
+    padding: 50px 0px;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleName {
+    width: 50%;
+}
+
+.BAimg {
+    width: 30%;
+    border: 5px black solid;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: white;
+}
+
+.BAimg img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(84, 196, 232);
+    font-size: 300%;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.by {
+    display: flex;
+    width: 80%;
+    padding: 5px 0px;
+    margin: auto;
+}
+
+.photo {
+    width: 5%;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 60px;
+}
+
+.myName {
+    width: 30%;
+}
+
+p {
+    font-size: 100%;
+    color: rgb(57, 20, 0);
+}
+
+h2 {
+    color: rgb(92, 32, 0);
+    font-size: 200%;
+}
+
+img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+#intro {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.introImg {
+    width: 30%;
+}
+
+.introText {
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 10px;
+    padding: 20px;
+}
+
+#menuBackground {
+    display: flex;
+    margin: auto;
+    background-image: url(../img/1226538.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.menu {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuTitle {
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin: 20px;
+}
+
+.menuLink {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.menuBox {
+    display: flex;
+    width: 100%;
+    border: 3px black solid;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    background-color: rgb(217, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.menuBox a {
+    color: rgb(71, 41, 255);
+    font-size: 200%;
+}
+
+.menuImg {
+    margin: auto;
+    width: 15%;
+}
+
+.menuImg img {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px black solid;
+}
+
+.menuDirect {
+    width: 60%;
+}
+
+#contact {
+    display: flex;
+    width: 100%;
+    background-color: rgb(123, 208, 255);
+}
+
+.contactBox {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.storyModeHeader {
+    display: flex;
+    margin: auto;
+    background-image: url(../img/storymodeheader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+}
+
+.pageTitle {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+    flex-direction: row-reverse;
+}
+
+.headerText {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 190px;
+    justify-content: flex-end;
+}
+
+.headerText p {
+    color: rgb(65, 187, 255);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: end;
+}
+
+.pageMainBox {
+    display: flex;
+    width: 100%;
+    padding: 50px 0px;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.pageText {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+}
+
+.pageImg {
+    display: flex;
+    width: 45%;
+}
+
+.replay {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 30px 0px;
+    flex-direction: column;
+}
+
+.threeReplay {
+    display: flex;
+    flex-direction: column;
+}
+
+.replayBox {
+    display: flex;
+    margin: 30px 0px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 10px;
+    padding: 30px 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.replayImg {
+    width: 60%;
+}
+
+.replayLilBox {
+    width: 35%;
+}
+
+.bottomNav {
+    display: flex;
+    background-color: rgb(21, 197, 255);
+    width: 60%;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.bottomNav a {
+    display: flex;
+    color: whitesmoke;
+    background-color: rgb(113, 212, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    width: 30%;
+    justify-content: center;
+}
+
+.bottomNav a:hover{
+    color: rgb(113, 212, 255);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#blank {
+    opacity: 0;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 10px 0px;
+    width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 150%;
+    }
+
+    .topNav {
+        display: none;
+    }
+
+    p {
+        font-size: 60%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introText {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .menuLink {
+        width: 80%;
+    }
+
+    .menuBox a {
+        font-size: 150%;
+    }
+
+    .pageTitle {
+        padding-top: 50px;
+    }
+
+    .headerText {
+        padding-bottom: 90px;
+    }
+
+    .pageMainBox {
+        padding: 20px 0px;
+    }
+    
+    .replay {
+        width: 90%;
+    }
+
+    .bottomNav {
+        width: 80%;
+    }
+}
