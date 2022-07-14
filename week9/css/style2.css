@@ -1,0 +1,112 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    width: 14%;
+    padding: 5px;
+}
+
+.purple {
+    background-color: rgba(208,201,224,255);
+    border: 2px rgba(89,59,143,255) solid;
+}
+
+.purple h1 {
+    color: rgba(89,59,143,255);
+}
+
+.purple p {
+    color: rgba(89,59,143,255);
+}
+
+.lightblue {
+    background-color: rgba(188,222,239,255);
+    border: 2px rgba(10,141,192,255) solid; 
+}
+
+.lightblueblank {
+    background-color: rgba(188,222,239,255);
+}
+
+.lightblue h1 {
+    color: rgba(10,141,192,255);
+}
+
+.lightblue p {
+    color: rgba(10,141,192,255);
+}
+
+.blue {
+    background-color: rgba(177,209,225,255);
+    border: 2px rgba(100,150,175,255) solid;
+}
+
+.blue h1 {
+    color: rgba(5,94,130,255);
+}
+
+.blue p {
+    color: rgba(5,94,130,255);
+}
+
+.green {
+    background-color: rgba(212,213,192,255);
+    border: 2px rgba(151,156,119,255) solid;
+}
+
+.greenblank {
+    background-color: rgba(238,239,227,255);
+}
+
+.green h1 {
+    color: rgba(91,99,30,255);
+}
+
+.green p {
+    color: rgba(91,99,30,255);
+}
+
+.lightgreen {
+    background-color: rgba(227,228,205,255);
+    border: 2px rgba(185,190,105,255) solid;
+}
+
+.lightgreen h1 {
+    color: rgba(156,163,66,255);
+}
+
+.lightgreen p {
+    color: rgba(156,163,66,255);
+}
+
+.aqua {
+    background-color: rgba(204,233,231,255);
+    border: 2px rgba(131,206,200,255) solid;
+}
+
+.aquablank {
+    background-color: rgba(228,243,241,255);
+}
+
+.aqua h1 {
+    color: rgba(11,172,164,255);
+}
+
+.aqua p {
+    color: rgba(11,172,164,255);
+}
+
+.red {
+    background-color: rgba(241,207,213,255);
+    border: 2px rgba(217,119,138,255) solid;
+}
+
+.red h1 {
+    color: rgba(186,11,42,255);
+}
+
+.red p {
+    color: rgba(186,11,42,255);
+}
