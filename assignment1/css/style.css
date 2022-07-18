@@ -162,7 +162,7 @@ img {
 .menu {
     display: flex;
     margin: auto;
-    width: 60%;
+    width: 80%;
     flex-direction: column;
     align-items: center;
 }
@@ -176,21 +176,22 @@ img {
 
 .menuLink {
     display: flex;
-    width: 60%;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    flex-direction: row;
     margin: 20px 0px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .menuBox {
     display: flex;
-    width: 100%;
+    width: 30%;
     border: 3px black solid;
     padding: 5px 10px;
-    margin: 10px 0px;
+    margin: 10px 50px;
     border-radius: 20px;
     background-color: rgb(217, 255, 255);
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -201,7 +202,7 @@ img {
 
 .menuImg {
     margin: auto;
-    width: 15%;
+    width: 50%;
 }
 
 .menuImg img {
@@ -211,7 +212,9 @@ img {
 }
 
 .menuDirect {
-    width: 60%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 #contact {
@@ -268,6 +271,15 @@ img {
 }
 
 .box {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.reverseBox {
     display: flex;
     margin: auto;
     width: 90%;
@@ -342,7 +354,7 @@ img {
     justify-content: center;
 }
 
-.bottomNav a:hover{
+.bottomNav a:hover {
     color: rgb(113, 212, 255);
     background-color: whitesmoke;
     border-radius: 10px;
@@ -398,8 +410,10 @@ img {
 }
 
 .factionsTextBox {
-    width: 100%;
-    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .modesHeader {
@@ -411,9 +425,42 @@ img {
     flex-direction: column;
 }
 
+.contentHeader {
+    display: flex;
+    margin: auto;
+    background-image: url(../img/contentheader.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: flex-end;
+    height: 5%;
+    align-items: center;
+}
+
+.buttonBox a {
+    color: rgb(0, 17, 255);
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: 2px rgb(0, 17, 255) solid;
+    border-radius: 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.buttonBox a:hover {
+    background-image: linear-gradient(to right, rgb(0, 17, 255), white);
+    color: white;
+}
+
 @media screen and (max-width: 400px) {
     h1 {
-        font-size: 100%; 
+        font-size: 100%;
     }
 
     .topNav {
@@ -425,7 +472,7 @@ img {
         border-radius: 20px;
         border: 2px black solid;
     }
-    
+
     .BAimg img {
         border-radius: 15px;
     }
@@ -473,9 +520,9 @@ img {
     }
 
     .pageMainBox {
-        padding: 0px 0px;
+        padding: 20px 0px;
     }
-    
+
     .replay {
         width: 90%;
     }
@@ -485,6 +532,12 @@ img {
     }
 
     .bottomNav a {
+        font-size: x-small;
+        width: 33%;
+        padding: 5px;
+    }
+
+    .bottomNav a:hover {
         font-size: x-small;
         width: 33%;
         padding: 10px;
@@ -499,11 +552,16 @@ img {
         padding: 20px 0px;
     }
 
-    .pageText{
+    .reverseBox {
+        flex-direction: column-reverse;
+        padding: 20px 0px;
+    }
+
+    .pageText {
         width: 100%;
     }
 
-    .pageImg{
+    .pageImg {
         width: 80%;
     }
 
@@ -514,12 +572,61 @@ img {
     .lilImg {
         width: 100%;
     }
-    
+
     .lilText {
         width: 100%;
     }
-    
+
     .headerText {
         padding-bottom: 0px;
+    }
+
+    .menuLink {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .menuBox {
+        display: flex;
+        width: 100%;
+        border: 3px black solid;
+        padding: 5px 10px;
+        margin: 10px 0px;
+        border-radius: 20px;
+        background-color: rgb(217, 255, 255);
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .menuBox a {
+        color: rgb(71, 41, 255);
+        font-size: 150%;
+    }
+
+    .menuImg {
+        width: 20%;
+    }
+
+    .menuImg img {
+        width: 100%;
+        border-radius: 10px;
+        border: 2px black solid;
+    }
+
+    .menuDirect {
+        width: 80%;
+    }
+
+    .photo {
+        width: 8%;
+    }
+
+    .buttonBox a {
+        padding: 5px 10px;
+        margin: 0px 0px;
+        font-size: 70%;
     }
 }
