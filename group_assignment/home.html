@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hollow Knight</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/hollowknight_icon.png">
+    <script src="https://kit.fontawesome.com/d75d34fd49.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-black px-1 py-2 sticky-top">
+        <div class="container-fluid">
+            <img src="img/title.jpg" alt="" width="150">
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end nav-pills mx-2" id="navbarNavDropdown">
+                <ul class="navbar-nav border-0 bg-secondary rounded-3 px-2 py-2">
+                    <li class="nav-item">
+                        <a class="nav-link active link-light bg-dark" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            The Knight
+                        </a>
+                        <ul class="dropdown-menu bg-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3" href="#">Character Introduction</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="weixian/spells&abilities.html">Spells and Abilities</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="#">Nail (Weapon)</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="#">Charms</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="#">Items</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Story
+                        </a>
+                        <ul class="dropdown-menu bg-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3" href="weixian/mainstory.html">Main Story</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="weixian/endings.html">Endings</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="#">The Grimm Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="#">Godmaster</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Bosses
+                        </a>
+                        <ul class="dropdown-menu bg-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3" href="mingjing/bosses.html#originalBosses">Original Bosses</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="mingjing/bosses.html#warriorDreams">Warrior Dreams</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="#">The Grimm Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="mingjing/bosses.html#godmasterBosses">Godmaster</a></li>
+                            <li><a class="dropdown-item link-light rounded-3" href="#">Boss Variants</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" aria-current="page" href="weixian/gamemodes.html">Game Modes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#">Areas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Carausel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="6000">
+                <img src="img/maxresdefault.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/promo_lore_hollow_knight_wiki.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="rounded-3 bg-grey py-3">
+                        <h5>Hollow Knight</h5>
+                        <p>Brave the depths of the Forgotten Kingdom.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/grimmtroupe.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="rounded-3 bg-danger py-3">
+                        <h5>The Grimm Troupe</h5>
+                        <p>Light the Nightmare Lantern. Summon the Troupe.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/Promo_godmaster.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="rounded-3 bg-warning py-3">
+                        <h5>Godmaster</h5>
+                        <p>Take your place amongst the Gods.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Header-->
+    <div class="container-fluid">
+        <div class="d-flex flex-column container justify-content-center mt-5">
+            <div class="container border-bottom border-light border-4 text-center w-75">
+                <h2>Hollow Knight</h2>
+            </div>
+            <div class="container text-center w-75 fs-5 my-5">
+                <p>Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of
+                    insects heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in
+                    a classic, hand-drawn 2D style</p>
+            </div>
+        </div>
+    </div>
+    <!--Categories-->
+    <div class="container-fluid bg-grey">
+        <div class="d-flex flex-column container justify-content-center">
+            <div class="container border-bottom border-light border-4 text-center w-75 mt-5">
+                <h2>Categories</h2>
+            </div>
+            <div class="container d-flex flex-wrap justify-content-between my-5">
+                <div class="card bg-dark my-3 p-4 rounded-4" style="width: 30%;">
+                    <div class="container w-100 h-75 p-0">
+                        <img src="img/theKnight.png" class="card-img-top rounded-4" width="100%" height="100%"
+                            alt="...">
+                    </div>
+                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
+                        <div class="dropend">
+                            <a class="dropdown-toggle text-decoration-none text-white fs-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                The Knight
+                            </a>
+                            <ul class="dropdown-menu bg-light p-2">
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Character Introduction</a>
+                                </li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Spells and Abilities</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Nail (Weapon)</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Charms</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Items</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark my-3 p-4 rounded-4" style="width: 30%;">
+                    <div class="container w-100 h-75 p-0">
+                        <img src="img/promo_lore_hollow_knight_wiki.png" class="card-img-top rounded-4" width="100%"
+                            height="100%" alt="...">
+                    </div>
+                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
+                        <div class="dropend">
+                            <a class="dropdown-toggle text-decoration-none text-white fs-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Story
+                            </a>
+                            <ul class="dropdown-menu bg-light p-2">
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Main Story</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Endings</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">The Grimm Troupe</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Godmaster</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark my-3 p-4 rounded-4" style="width: 30%;">
+                    <div class="container w-100 h-75 p-0">
+                        <img src="img/radiance.webp" class="card-img-top rounded-4" width="100%" height="100%"
+                            alt="...">
+                    </div>
+                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
+                        <div class="dropend">
+                            <a class="dropdown-toggle text-decoration-none text-white fs-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Bosses
+                            </a>
+                            <ul class="dropdown-menu bg-light p-2">
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Original Bosses</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Warrior Dreams</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">The Grimm Troupe</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Godmaster</a></li>
+                                <li><a class="dropdown-item link-dark rounded-3" href="#">Boss Variants</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark my-3 p-4 rounded-4" style="width: 30%;">
+                    <div class="container w-100 h-75 p-0">
+                        <img src="img/gamemodeimg.jpg" class="card-img-top rounded-4" width="100%" height="100%"
+                            alt="...">
+                    </div>
+                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
+                        <a href="" class="stretched-link text-decoration-none text-white">
+                            <h3>Game Modes</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="card bg-dark my-3 p-4 rounded-4" style="width: 30%;">
+                    <div class="container w-100 h-75 p-0">
+                        <img src="img/areas.jpg" class="card-img-top rounded-4" width="100%" height="100%" alt="...">
+                    </div>
+                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
+                        <a href="" class="stretched-link text-decoration-none text-white">
+                            <h3>Areas</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="card bg-dark my-3 p-4 rounded-4" style="width: 30%;">
+                    <div class="container w-100 h-75 p-0">
+                        <img src="img/achievements.jpg" class="card-img-top rounded-4" width="100%" height="100%"
+                            alt="...">
+                    </div>
+                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
+                        <a href="" class="stretched-link text-decoration-none text-white">
+                            <h3>Achievements</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center pb-4">
+            <img src="img/footerimg.webp" alt="">
+        </div>
+    </div>
+    <!--Contact-->
+    <div class="container-fluid bg-lightgrey" id="contact">
+        <div class="container d-flex justify-content-center py-5">
+            <h2>CONTACT US:</h2>
+        </div>
+        <div class="container d-flex py-3 align-items-center justify-content-evenly">
+            <div class="contactBoxLeft d-flex"><img src="img/contactimg.webp" width="100%" alt=""></div>
+            <div class="contactBoxRight d-flex bg-dark rounded-4 p-4 justify-content-between">
+                <div class="container d-flex flex-column justify-content-evenly m-0 p-0 w-25">
+                    <a class="d-flex text-decoration-none text-light align-items-center h-20 fs-5"
+                        href="https://www.facebook.com/search/top?q=hollow%20knight">
+                        <img class="me-4" src="img/facebook.png" width="20%" alt="">
+                        Facebook
+                    </a>
+                    <a class="d-flex text-decoration-none text-light align-items-center h-20 fs-5"
+                        href="https://www.instagram.com/explore/tags/hollowknight/">
+                        <img class="me-4" src="img/insta.png" width="20%" alt="">
+                        Instagram
+                    </a>
+                    <a class="d-flex text-decoration-none text-light align-items-center h-20 fs-5"
+                        href="https://twitter.com/TeamCherryGames">
+                        <img class="me-4" src="img/twitter.png" width="20%" alt="">
+                        Twitter
+                    </a>
+                    <a class="d-flex text-decoration-none text-light align-items-center h-20 fs-5"
+                        href="https://www.teamcherry.com.au/contact">
+                        <img class="me-4" src="img/gmail.png" width="20%" alt="">
+                        Email
+                    </a>
+                </div>
+                <div class="container w-50 m-0 p-0"><img class="rounded-4" src="img/contactimg2.jpg" width="100%"
+                        alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>

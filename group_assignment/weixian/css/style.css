@@ -1,0 +1,137 @@
+.menuColor{
+    background-color: #2c3333;
+}
+
+#container{
+    background-color: #1A1E23;
+}
+
+.SpellheaderText{
+    margin: auto;
+    color: #FFD700;
+    font-family: Hurricane;
+    text-align: center;
+}
+
+#skillText,#skillText2,#AbilitiesText,#AbilitiesText2{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Gideon Roman;
+}
+
+#skillText,#AbilitiesText{
+    text-decoration: underline;
+}
+
+#divSpells div{
+    background-color: #354347;
+    width:40%;
+    margin: 20px 0px;
+}
+
+#divSpell2 div{
+    background-color: #354347;
+    width:25%;
+    margin: 20px 0px;
+}
+
+#divAbilities div{
+    background-color: #354347;
+    width:90%;
+    margin: 20px auto;
+}
+
+.color-skill1{
+    color:#FFFFFF;
+}
+
+.color-skill2{
+    color:#9A9A9A;
+}
+
+.color-skill3{
+    color:#F43F3F;
+}
+
+.color-w{
+    color: #FFFFFF;
+}
+
+.divAbilitiesDetail h3{
+    font-family: Indie Flower;
+}
+
+
+/*------------------------------------page2-----------------------------------------------**/
+.gamemode{
+    background-color: #DCD7C9;
+    width:90%;
+    margin: 20px auto;
+}
+
+.gamemode h3{
+    color:#2C3639;
+    font-family: Vast Shadow;
+}
+
+.gamemode p{
+    color:#3F4E4F;
+}
+
+/*------------------------------------page3-----------------------------------------------**/
+.mainstoryHeader{
+    font-family: Indie Flower;
+    color:#C0C0C0;
+    margin: 20px auto;
+}
+
+.mainstoryText1,.mainstoryText2{
+    font-family: Hina Mincho;
+    color:#E7F6F2;
+    margin: 20px auto;
+}
+
+.mainstoryText2{
+    color: #FFD700;
+    margin: 20px auto;
+}
+/*------------------------------------page4-----------------------------------------------**/
+.endingHeaderText{
+    font-size: 42px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    font-family: Island Moments;
+}
+
+.Requirement{
+    color: #9A9A9A;
+}
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+    #divSpells div{
+        background-color: #354347;
+        width:90%;
+        margin: 20px 0px;
+        flex-direction: column;
+    }
+    
+    #divSpell2 div{
+        background-color: #354347;
+        width:90%;
+        margin: 20px 0px;
+    }
+    
+    #divAbilities div{
+        background-color: #354347;
+        width:90%;
+        margin: 20px 0px;
+        flex-direction: column;
+    }
+
+
+}

@@ -1,0 +1,29 @@
+html body {
+    background-color: #3a3a3a;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-grey {
+    background-color: rgb(93, 93, 93);
+}
+
+.bg-lightgrey {
+    background-color: rgb(154, 154, 154);
+}
+
+.contactBoxLeft{
+    width: 30%;
+}
+
+.contactBoxRight {
+    width: 60%;
+}
+
+.h-20 {
+    height: 20%;
+}
