@@ -4,6 +4,10 @@ html body {
     color: white;
 }
 
+p {
+    font-size: 1.5vw;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -26,4 +30,22 @@ html body {
 
 .h-20 {
     height: 20%;
+}
+
+@media screen and (max-width: 400px) {
+    p {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    p {
+        font-size: 2vw;
+    }
 }
