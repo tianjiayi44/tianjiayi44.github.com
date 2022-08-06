@@ -35,8 +35,24 @@ a {
     background-color: rgb(93, 93, 93);
 }
 
+.bg-greyGradient {
+    background-image: linear-gradient(to bottom right, rgb(62, 62, 62), grey);
+}
+
+.bg-redGradient {
+    background-image: linear-gradient(to bottom right, red, rgb(255, 96, 96));
+}
+
+.bg-yellowGradient {
+    background-image: linear-gradient(to bottom right, gold, rgb(255, 231, 96));
+}
+
 .bg-lightgrey {
     background-color: rgb(154, 154, 154);
+}
+
+.bg-pureWhite {
+    background-color: white;
 }
 
 #contactBoxLeft{
@@ -155,7 +171,7 @@ a {
     }
 
     .dropdownLink a {
-        font-size: 6vw !important;
+        font-size: 4vw !important;
     }
 
     .w-30 {
