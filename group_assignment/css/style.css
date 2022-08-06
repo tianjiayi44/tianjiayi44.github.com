@@ -5,15 +5,18 @@ html body {
 }
 
 p {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    margin: 0%;
 }
 
 h5 {
-    font-size: 2vw !important; 
+    font-size: 1.5vw !important;
+    margin: 0% !important; 
 }
 
 h2 {
-    font-size: 2vw !important; 
+    font-size: 2.5vw !important;
+    margin: 0% !important; 
 }
 
 a {
@@ -21,7 +24,7 @@ a {
 }
 
 .dropdownLink a {
-    font-size: 2vw !important;
+    font-size: 1.8vw !important;
 }
 
 .bg-black {
@@ -36,12 +39,12 @@ a {
     background-color: rgb(154, 154, 154);
 }
 
-.contactBoxLeft{
+#contactBoxLeft{
     width: 30%;
 }
 
-.contactBoxRight {
-    width: 60%;
+#contactBoxRight {
+    width: 70%;
 }
 
 .h-20 {
@@ -50,6 +53,10 @@ a {
 
 .w-30 {
     width: 30%;
+}
+
+.w-80 {
+    width: 80% !important;
 }
 
 .justifyContent {
@@ -134,7 +141,7 @@ a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     p {
         font-size: 3vw !important;
     }
@@ -157,5 +164,18 @@ a {
 
     .justifyContent {
         justify-content: center;
+    }
+
+    #contactBoxLeft {
+        display: none !important;
+        width: 0% !important;
+    }
+
+    #contactBoxRight {
+        width: 100%;
+    }
+
+    .w-80 {
+        width: 100% !important;
     }
 }

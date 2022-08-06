@@ -84,66 +84,68 @@
         </div>
     </nav>
     <!--Carausel-->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
+    <div class="container-fluid d-flex my-3 justify-content-center">
+        <div id="carouselExampleCaptions" class="carousel slide w-80 d-flex" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="6000">
+                    <img src="img/titleImg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/hollowKnightBeginning.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="rounded-3 bg-grey py-3">
+                            <h5>Hollow Knight</h5>
+                            <p>Brave the depths of the Forgotten Kingdom.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/grimmTroupe.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="rounded-3 bg-danger py-3">
+                            <h5>The Grimm Troupe</h5>
+                            <p>Light the Nightmare Lantern. Summon the Troupe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="img/godmaster.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="rounded-3 bg-warning py-3">
+                            <h5>Godmaster</h5>
+                            <p>Take your place amongst the Gods.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="6000">
-                <img src="img/maxresdefault.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="4000">
-                <img src="img/promo_lore_hollow_knight_wiki.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="rounded-3 bg-grey py-3">
-                        <h5>Hollow Knight</h5>
-                        <p>Brave the depths of the Forgotten Kingdom.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="4000">
-                <img src="img/grimmtroupe.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="rounded-3 bg-danger py-3">
-                        <h5>The Grimm Troupe</h5>
-                        <p>Light the Nightmare Lantern. Summon the Troupe.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="4000">
-                <img src="img/Promo_godmaster.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="rounded-3 bg-warning py-3">
-                        <h5>Godmaster</h5>
-                        <p>Take your place amongst the Gods.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
     <!--Header-->
     <div class="container-fluid">
         <div class="d-flex flex-column container justify-content-center my-4">
-            <div class="container border-bottom border-light border-4 text-center">
+            <div class="container border-bottom border-light border-4 text-center py-3">
                 <h2>Hollow Knight</h2>
             </div>
             <div class="container text-center my-4">
@@ -159,14 +161,14 @@
             <div class="container border-bottom border-light border-4 text-center w-75 my-2">
                 <h2>Categories</h2>
             </div>
-            <div class="container-fluid d-flex flex-wrap justifyContent my-2 mx-2">
+            <div class="container-fluid d-flex flex-wrap justifyContent dropdownLink my-2 mx-2">
                 <div class="card bg-dark w-30 my-3 p-4 rounded-4">
                     <div class="container w-100 h-75 p-0">
                         <img src="img/theKnight.png" class="card-img-top rounded-4" width="100%" height="100%"
                             alt="...">
                     </div>
-                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
-                        <div class="dropdown-center dropdownLink">
+                    <div class="card-body d-flex justify-content-center h-25 mt-3 pt-2 pb-0 border-top border-4 border-light">
+                        <div class="dropdown-center">
                             <a class="dropdown-toggle text-decoration-none text-white" href="#"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 The Knight
@@ -183,11 +185,11 @@
                 </div>
                 <div class="card bg-dark w-30 my-3 p-4 rounded-4">
                     <div class="container w-100 h-75 p-0">
-                        <img src="img/promo_lore_hollow_knight_wiki.png" class="card-img-top rounded-4" width="100%"
+                        <img src="img/hollowKnightBeginning.png" class="card-img-top rounded-4" width="100%"
                             height="100%" alt="...">
                     </div>
-                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
-                        <div class="dropdown-center dropdownLink">
+                    <div class="card-body d-flex justify-content-center h-25 mt-3 pt-2 pb-0 border-top border-4 border-light">
+                        <div class="dropdown-center">
                             <a class="dropdown-toggle text-decoration-none text-white" href="#"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Story
@@ -206,8 +208,8 @@
                         <img src="img/radiance.webp" class="card-img-top rounded-4" width="100%" height="100%"
                             alt="...">
                     </div>
-                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
-                        <div class="dropdown-center dropdownLink">
+                    <div class="card-body d-flex justify-content-center h-25 mt-3 pt-2 pb-0 border-top border-4 border-light">
+                        <div class="dropdown-center">
                             <a class="dropdown-toggle text-decoration-none text-white" href="#"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Bosses
@@ -227,31 +229,25 @@
                         <img src="img/gamemodeimg.jpg" class="card-img-top rounded-4" width="100%" height="100%"
                             alt="...">
                     </div>
-                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
-                        <a href="" class="stretched-link text-decoration-none text-white">
-                            <h3>Game Modes</h3>
-                        </a>
+                    <div class="card-body d-flex justify-content-center h-25 mt-3 pt-2 pb-0 border-top border-4 border-light">
+                        <a href="#" class="stretched-link text-decoration-none text-white">Game Modes</a>
                     </div>
                 </div>
                 <div class="card bg-dark w-30 my-3 p-4 rounded-4">
                     <div class="container w-100 h-75 p-0">
                         <img src="img/areas.jpg" class="card-img-top rounded-4" width="100%" height="100%" alt="...">
                     </div>
-                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
-                        <a href="" class="stretched-link text-decoration-none text-white">
-                            <h3>Areas</h3>
-                        </a>
+                    <div class="card-body d-flex justify-content-center h-25 mt-3 pt-2 pb-0 border-top border-4 border-light">
+                        <a href="#" class="stretched-link text-decoration-none text-white">Areas</a>
                     </div>
                 </div>
-                <div class="card bg-dark w-30 my-2 p-3 rounded-4">
+                <div class="card bg-dark w-30 my-3 p-4 rounded-4">
                     <div class="container w-100 h-75 p-0">
                         <img src="img/achievements.jpg" class="card-img-top rounded-4" width="100%" height="100%"
                             alt="...">
                     </div>
-                    <div class="card-body d-flex justify-content-center h-25 mt-4 border-top border-4 border-light">
-                        <a href="" class="stretched-link text-decoration-none text-white">
-                            <h3>Achievements</h3>
-                        </a>
+                    <div class="card-body d-flex justify-content-center h-25 mt-3 pt-2 pb-0 border-top border-4 border-light">
+                        <a href="#" class="stretched-link text-decoration-none text-white">Achievements</a>
                     </div>
                 </div>
             </div>
@@ -262,29 +258,29 @@
     </div>
     <!--Contact-->
     <div class="container-fluid bg-lightgrey" id="contact">
-        <div class="container d-flex justify-content-center py-5">
+        <div class="container d-flex justify-content-center align-items-center py-3">
             <h2>CONTACT US:</h2>
         </div>
-        <div class="container d-flex py-3 align-items-center justify-content-evenly">
-            <div class="contactBoxLeft d-flex"><img src="img/contactimg.webp" width="100%" alt=""></div>
-            <div class="contactBoxRight d-flex bg-dark rounded-4 p-4 justify-content-between">
+        <div class="container d-flex py-4 align-items-center justify-content-evenly">
+            <div class="d-flex" id="contactBoxLeft"><img src="img/contactimg.webp" width="100%" alt=""></div>
+            <div class="d-flex bg-dark rounded-4 mx-3 p-4 justify-content-between" id="contactBoxRight">
                 <div class="container d-flex flex-column justify-content-evenly m-0 p-0 w-25">
-                    <a class="d-flex text-decoration-none text-light align-items-center h-20 fs-5"
+                    <a class="d-flex text-decoration-none text-light align-items-center w-100 h-20"
                         href="https://www.facebook.com/search/top?q=hollow%20knight">
                         <img class="me-4" src="img/facebook.png" width="20%" alt="">
                         Facebook
                     </a>
-                    <a class="d-flex text-decoration-none text-light align-items-center h-20 fs-5"
+                    <a class="d-flex text-decoration-none text-light align-items-center w-100 h-20"
                         href="https://www.instagram.com/explore/tags/hollowknight/">
                         <img class="me-4" src="img/insta.png" width="20%" alt="">
                         Instagram
                     </a>
-                    <a class="d-flex text-decoration-none text-light align-items-center h-20 fs-5"
+                    <a class="d-flex text-decoration-none text-light align-items-center w-100 h-20"
                         href="https://twitter.com/TeamCherryGames">
                         <img class="me-4" src="img/twitter.png" width="20%" alt="">
                         Twitter
                     </a>
-                    <a class="d-flex text-decoration-none text-light align-items-center h-20 fs-5"
+                    <a class="d-flex text-decoration-none text-light align-items-center w-100 h-20"
                         href="https://www.teamcherry.com.au/contact">
                         <img class="me-4" src="img/gmail.png" width="20%" alt="">
                         Email
