@@ -1,0 +1,124 @@
+.navigation_bottom {
+    position: relative;
+  }
+
+  .image_text {
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    height: 105vh;
+    background-image: url('../img/group_assignment.image/image\ 107.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    border-bottom: 5px solid white;
+    color: white;
+  }
+
+  .boss_name {
+    color: white;
+  }
+
+  .title_content {
+    color: white;
+  }
+
+  html body {
+    background-color: #3a3a3a;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.boss_picture{
+  display: flex;
+}
+  .picture_row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+
+  .picture_row p {
+    text-align: center;
+    color: white;
+  }
+
+  .tablet_row {
+    display: none;
+  }
+
+  .tablet_row p {
+    text-align: center;
+    color: white;
+  }
+
+  @media screen and (max-width:1000px) {
+
+    .two-bottom_picture {
+      display: block;
+    }
+
+    .hide_image {
+      display: block;
+    }
+
+    .boss_picture {
+      display: flex;
+    }
+
+
+    .tablet_hide {
+      display: none;
+    }
+
+    .final_image {
+      width: 80%;
+    }
+    
+    .picture_row img {
+      width: 80%;
+    }
+
+    .tablet_row {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+    }
+
+    .tablet_row img {
+      width: 80%;
+    }
+
+    .tablet_hide {
+      display: none;
+    }
+    .boss_picture{
+      display: block;
+    }
+  }
+
+  @media screen and (max-width:550px) {
+    .picture_row {
+      display: block;
+      text-align: center;
+    }
+
+    .picture_row img {
+      width: 60%;
+    }
+
+    .tablet_row {
+      display: block;
+      text-align: center;
+
+    }
+
+    .tablet_row img {
+      width: 60%;
+    }
+  }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Knight</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/hollowknight_icon.png">
+    <script src="https://kit.fontawesome.com/d75d34fd49.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-black sticky-top py-2">
+        <div class="container-fluid">
+            <img src="img/title.jpg" alt="" width="150">
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end nav-pills mx-2" id="navbarNavDropdown">
+                <ul class="navbar-nav border-0 bg-secondary rounded-3 px-2 py-2">
+                    <li class="nav-item">
+                        <a class="nav-link link-light px-2" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link bg-dark dropdown-toggle link-light px-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            The Knight
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark p-2">
+                            <li><a class="dropdown-item link-light bg-dark rounded-3 p-2" href="knight.html">Character Introduction</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="weixian/spells&abilities.html">Spells and Abilities</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="nail.html">Nail (Weapon)</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="charms.html">Charms</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="items.html">Items</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Story
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="weixian/mainstory.html">Main Story</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="weixian/endings.html">Endings</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="grimmtroupe.html">The Grimm Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="godmaster.html">Godmaster</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Bosses
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="mingjing/bosses.html#originalBosses">Original Bosses</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="mingjing/bosses.html#warriorDreams">Warrior Dreams</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="mingjing/bosses.html#grimmTroupeBosses">The Grimm Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="mingjing/bosses.html#godmasterBosses">Godmaster</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2" href="mingjing/bosses.html#bossVariant">Boss Variants</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light px-2" aria-current="page" href="weixian/gamemodes.html">Game Modes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light px-2" href="areas.html">Areas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light px-2" href="achivements.html">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light px-2" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <div class="container-fluid d-flex justify-content-end" id="knightHeaderImg">
+        <div class="d-flex flex-column w-50">
+            <h1 class="d-flex w-50">The Knight</h1>
+            <h2 class="d-flex w-50">The character you play as.</h2>
+        </div>
+    </div>
+    
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>

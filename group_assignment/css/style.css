@@ -4,20 +4,27 @@ html body {
     color: white;
 }
 
+/*#text*/
 p {
-    font-size: 1.5vw;
-    margin: 0%;
+    font-size: 1.5vw !important;
+    margin: 1% 0% !important;
+}
+
+h1 {
+    font-size: 6vw !important;
+    margin: 1% 0% !important; 
+}
+
+h2 {
+    font-size: 3vw !important;
+    margin: 1% 0% !important; 
 }
 
 h5 {
     font-size: 1.5vw !important;
-    margin: 0% !important; 
+    margin: 1% 0% !important; 
 }
 
-h2 {
-    font-size: 2.5vw !important;
-    margin: 0% !important; 
-}
 
 a {
     font-size: 1.5vw !important;
@@ -26,7 +33,9 @@ a {
 .dropdownLink a {
     font-size: 1.8vw !important;
 }
+/*#endregion*/
 
+/*#background*/
 .bg-black {
     background-color: black;
 }
@@ -54,15 +63,9 @@ a {
 .bg-pureWhite {
     background-color: white;
 }
+/*#endregion*/
 
-#contactBoxLeft{
-    width: 30%;
-}
-
-#contactBoxRight {
-    width: 70%;
-}
-
+/*#width*/
 .h-20 {
     height: 20%;
 }
@@ -73,6 +76,24 @@ a {
 
 .w-80 {
     width: 80% !important;
+}
+/*#endregion*/
+
+/*#Knight*/
+#knightHeaderImg {
+    background-image: url(../img/hollowKnightBeginning.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*#endregion*/
+
+#contactBoxLeft{
+    width: 30%;
+}
+
+#contactBoxRight {
+    width: 70%;
 }
 
 .justifyContent {
