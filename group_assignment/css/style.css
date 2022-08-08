@@ -1,7 +1,7 @@
 html body {
     background-color: #3a3a3a;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white !important;
 }
 
 /*#text*/
@@ -36,12 +36,16 @@ a {
 /*#endregion*/
 
 /*#background*/
+.body {
+    background-color: #3a3a3a !important;
+}
+
 .bg-black {
-    background-color: black;
+    background-color: black !important;
 }
 
 .bg-grey {
-    background-color: rgb(93, 93, 93);
+    background-color: rgb(93, 93, 93) !important;
 }
 
 .bg-greyGradient {
@@ -77,16 +81,27 @@ a {
 .w-80 {
     width: 80% !important;
 }
+
+.contentText {
+    width: 50%;
+}
+
+.contentImg {
+    width: 50%;
+}
+
+.othersWidth {
+    width: 50% !important;
+}
 /*#endregion*/
 
-/*#Knight*/
+
 #knightHeaderImg {
     background-image: url(../img/hollowKnightBeginning.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 110vw;
 }
-/*#endregion*/
 
 #contactBoxLeft{
     width: 30%;
@@ -136,7 +151,7 @@ a {
     }
 
     h2 {
-        font-size: 2vw !important; 
+        font-size: 2.5vw !important; 
     }
 
     a {
@@ -162,7 +177,7 @@ a {
     }
 
     h2 {
-        font-size: 2vw !important; 
+        font-size: 3vw !important; 
     }
 
     a {
