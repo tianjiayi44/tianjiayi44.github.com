@@ -20,7 +20,7 @@ h2 {
     margin: 1% 0% !important; 
 }
 
-h5 {
+h4 {
     font-size: 1.5vw !important;
     margin: 1% 0% !important; 
 }
@@ -93,8 +93,15 @@ a {
 .othersWidth {
     width: 50% !important;
 }
-/*#endregion*/
 
+.imgSizeResponsive {
+    width: 50% !important;
+}
+
+.othersImg {
+    width: 50%;
+}
+/*#endregion*/
 
 #knightHeaderImg {
     background-image: url(../img/hollowKnightBeginning.png);
@@ -120,7 +127,7 @@ a {
         font-size: 2vw !important;
     }
 
-    h5 {
+    h4 {
         font-size: 2.5vw !important; 
     }
 
@@ -139,6 +146,14 @@ a {
     .w-30 {
         width: 45%;
     }
+
+    .othersImg {
+        width: 80%;
+    }
+
+    .othersWidth {
+        width: 80% !important;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -146,7 +161,7 @@ a {
         font-size: 2vw !important;
     }
 
-    h5 {
+    h4 {
         font-size: 2vw !important; 
     }
 
@@ -172,8 +187,8 @@ a {
         font-size: 2vw !important;
     }
 
-    h5 {
-        font-size: 2vw !important;
+    h4 {
+        font-size: 3vw !important;
     }
 
     h2 {
@@ -190,6 +205,26 @@ a {
 
     .w-30 {
         width: 45%;
+    }
+
+    .contentText {
+        width: 60%;
+    }
+    
+    .contentImg {
+        width: 40%;
+    }
+    
+    .othersWidth {
+        width: 80% !important;
+    }
+
+    .imgSizeResponsive {
+        width: 70% !important;
+    }
+
+    .othersWidth {
+        width: 100% !important;
     }
 }
 
@@ -227,7 +262,23 @@ a {
         width: 100%;
     }
 
+    .body {
+        width: 100% !important;
+    }
+
     .w-80 {
+        width: 100% !important;
+    }
+
+    .imgSizeResponsive {
+        width: 100% !important;
+    }
+
+    .contentImg {
+        width: 50% !important;
+    }
+
+    .othersWidth {
         width: 100% !important;
     }
 }
