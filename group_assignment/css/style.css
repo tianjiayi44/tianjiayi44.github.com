@@ -12,17 +12,17 @@ p {
 
 h1 {
     font-size: 6vw !important;
-    margin: 1% 0% !important; 
+    margin: 1% 0% !important;
 }
 
 h2 {
     font-size: 3vw !important;
-    margin: 1% 0% !important; 
+    margin: 1% 0% !important;
 }
 
 h4 {
     font-size: 1.5vw !important;
-    margin: 1% 0% !important; 
+    margin: 1% 0% !important;
 }
 
 
@@ -33,6 +33,7 @@ a {
 .dropdownLink a {
     font-size: 1.8vw !important;
 }
+
 /*#endregion*/
 
 /*#background*/
@@ -67,6 +68,7 @@ a {
 .bg-pureWhite {
     background-color: white;
 }
+
 /*#endregion*/
 
 /*#width*/
@@ -88,6 +90,7 @@ a {
 
 .contentImg {
     width: 50%;
+    justify-content: end;
 }
 
 .othersWidth {
@@ -101,6 +104,14 @@ a {
 .othersImg {
     width: 50%;
 }
+
+.nailArtsBox {
+    width: 80% !important;
+}
+
+.lilBoxLink {
+    width: 30% !important;
+}
 /*#endregion*/
 
 #knightHeaderImg {
@@ -110,7 +121,14 @@ a {
     background-size: 110vw;
 }
 
-#contactBoxLeft{
+#nailHeaderImg {
+    background-image: url(../img/nailBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110vw;
+}
+
+#contactBoxLeft {
     width: 30%;
 }
 
@@ -122,17 +140,21 @@ a {
     justify-content: space-between;
 }
 
+.relative {
+    position: relative;
+}
+
 @media screen and (max-width: 1000px) {
     p {
         font-size: 2vw !important;
     }
 
     h4 {
-        font-size: 2.5vw !important; 
+        font-size: 2.5vw !important;
     }
 
     h2 {
-        font-size: 2.5vw !important; 
+        font-size: 2.5vw !important;
     }
 
     a {
@@ -162,11 +184,11 @@ a {
     }
 
     h4 {
-        font-size: 2vw !important; 
+        font-size: 2vw !important;
     }
 
     h2 {
-        font-size: 2.5vw !important; 
+        font-size: 2.5vw !important;
     }
 
     a {
@@ -180,6 +202,18 @@ a {
     .w-30 {
         width: 47%;
     }
+
+    .responsiveDivReverse {
+        align-items: center;
+    }
+
+    .responsiveDiv {
+        align-items: center;
+    }
+
+    .imgSizeResponsive {
+        width: 50% !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -192,7 +226,7 @@ a {
     }
 
     h2 {
-        font-size: 3vw !important; 
+        font-size: 3vw !important;
     }
 
     a {
@@ -207,24 +241,38 @@ a {
         width: 45%;
     }
 
-    .contentText {
-        width: 60%;
-    }
-    
     .contentImg {
-        width: 40%;
-    }
-    
-    .othersWidth {
         width: 80% !important;
+        justify-content: center !important;
+        padding: 0% !important;
     }
 
-    .imgSizeResponsive {
-        width: 70% !important;
+    .contentText {
+        width: 100% !important;
     }
 
     .othersWidth {
         width: 100% !important;
+    }
+
+    .imgSizeResponsive {
+        width: 30% !important;
+    }
+
+    .responsiveDiv {
+        flex-direction: column !important;
+    }
+
+    .responsiveDivReverse {
+        flex-direction: column-reverse !important;
+    }
+
+    .nailArtsBox {
+        width: 100% !important;
+    }
+
+    .lilBoxLink {
+        width: 40% !important;
     }
 }
 
@@ -234,7 +282,7 @@ a {
     }
 
     h2 {
-        font-size: 5vw !important; 
+        font-size: 3vw !important;
     }
 
     a {
@@ -271,14 +319,35 @@ a {
     }
 
     .imgSizeResponsive {
-        width: 100% !important;
+        width: 50% !important;
     }
 
     .contentImg {
-        width: 50% !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .contentText {
+        width: 100% !important;
     }
 
     .othersWidth {
         width: 100% !important;
+    }
+
+    .responsiveDiv {
+        flex-direction: column !important;
+    }
+
+    .responsiveDivReverse {
+        flex-direction: column-reverse !important;
+    }
+
+    .responsiveFlexWrap {
+        flex-wrap: wrap;
+    }
+
+    .lilBoxLink {
+        width: 35% !important;
     }
 }
