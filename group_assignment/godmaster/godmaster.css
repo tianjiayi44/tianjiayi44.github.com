@@ -1,0 +1,118 @@
+.navigation_bottom {
+    position: relative;
+}
+
+html body {
+    background-color: #3a3a3a;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.title {
+    border-bottom: 5px solid white;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+.image_text {
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    height: 105vh;
+    background-image: url('god_master.image/image\ 108.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.godmaster_font {
+    font-family: 'Irish Grover';
+    color: white;
+}
+
+.content {
+    color: white;
+    display: flex;
+}
+
+.god_master_content {
+    color: white;
+}
+
+.content div {
+    width: 60%;
+}
+
+
+
+.tablet_mode {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .tablet_mode {
+        display: flex;
+        
+    }
+
+    .god_master_image {
+        display: none;
+
+    }
+
+    .god_master_content {
+        display: none;
+    }
+
+    .content {
+        display: block;
+    }
+    .tablet_mode img{
+        width: 40%;
+    }
+    .left_content img{
+        width: 70%;
+    }
+    .godmaster_font{
+        width: 70%;
+    }
+    .content img{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tablet_mode {
+        display: flex;
+        
+    }
+
+    .god_master_image {
+        display: none;
+
+    }
+
+    .god_master_content {
+        display: none;
+    }
+
+    .content {
+        display: block;
+    }
+    .tablet_mode img{
+        width: 40%;
+    }
+    .left_content img{
+        width: 70%;
+    } 
+}
+@media screen and (max-width: 400px){
+    .tablet_mode{
+        display: block;
+    }
+    .content div {
+    width: 80%;
+}
+}
