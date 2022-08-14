@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Charms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/hollowknight_icon.png">
+    <script src="https://kit.fontawesome.com/d75d34fd49.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg sticky-top bg-black py-2">
+        <div class="container-fluid">
+            <div class="w-15">
+                <img src="img/title.jpg" alt="" width="100%">
+            </div>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end nav-pills mx-2" id="navbarNavDropdown">
+                <ul class="navbar-nav border-0 bg-secondary rounded-3 px-2 py-2 justify-content-end">
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown link">
+                        <a class="nav-link dropdown-toggle link-light bg-dark active px-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            The Knight
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="knight.html">Character
+                                    Introduction</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="weixian/spells&abilities.html">Spells and Abilities</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="nail.html">Nail
+                                    (Weapon)</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 bg-dark active p-2 link"
+                                    href="charms.html">Charms</a>
+                            </li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="items.html">Items</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown link">
+                        <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Story
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="weixian/mainstory.html">Main Story</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="weixian/endings.html">Endings</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="thegrimtroupe/thegrimtroupe.html">The Grimm Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="godmaster/godmaster.html">Godmaster</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="#">The Collosuem of
+                                    Fools</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown link">
+                        <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Bosses
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="bosses.html#originalBosses">Original Bosses</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="bosses.html#warriorDreams">Warrior Dreams</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="bosses.html">The Grimm
+                                    Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="bosses.html#godmaster">Godmaster</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="bosses.html">Boss
+                                    Variants</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" aria-current="page" href="weixian/gamemodes.html">Game
+                            Modes</a>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="areas.html">Areas</a>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="achievement/achievement.html">Achievements</a>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <div class="d-flex justify-content-end" id="charmsHeaderImg">
+        <div class="container d-flex flex-column align-items-end w-50 my-4 mx-2">
+            <h1 class="d-flex text-end mx-2 my-4 head1">Charms</h1>
+            <div class="d-flex text-end text-dark mx-2 px-3 py-3 border bg-light rounded-3">
+                <h3 class="head3">Powerful items that provides variety to your playthrough</h3>
+            </div>
+        </div>
+    </div>
+    <!--Contents-->
+    <div class="container-fluid my-4 px-4 accordion">
+        <!--Charms-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#charms" aria-expanded="false" href="#">
+                    <h2 class="head2">Charms</h2>
+                </a>
+            </h2>
+            <div id="charms" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentText text-white d-flex align-items-center p-2">
+                            <p class="justify-content-center para">
+                                Charms are a special type of Item in Hollow Knight that provide various bonuses and
+                                special abilities. Charms use Notches when equipped and can only be equipped and
+                                unequipped while sitting on a Bench.<br><br>
+                                There are a total of 45 Charms, though only a max of 40 can be kept at one time, as 5
+                                Charms can be replaced with different ones throughout the game:
+                            </p>
+                        </div>
+                        <div class="contentImg p-2">
+                            <img class="rounded-4 w-100" src="img/hk_charms_all.jpg" width="50%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Notches-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#notches" aria-expanded="false" href="#">
+                    <h2 class="head2">Notches</h2>
+                </a>
+            </h2>
+            <div id="notches" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentText text-white d-flex align-items-center p-2">
+                            <p class="justify-content-center para">
+                                Charm Notches are required to equip Charms. Different Charms require a different number
+                                of Notches. The Knight starts with 3 Notches. 8 more can be found throughout the game,
+                                for a total of 11 Notches.
+                            </p>
+                        </div>
+                        <div class="contentImg d-flex justify-content-center">
+                            <img class="rounded-4" src="img/Notch.jpg" width="40%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Overcharmed-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#overcharmed" aria-expanded="false" href="#">
+                    <h2 class="head2">Overcharmed</h2>
+                </a>
+            </h2>
+            <div id="overcharmed" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <p class="justify-content-center para">
+                                The Overcharmed status is activated if there are more Charms equipped than the number of
+                                Notches can support. While in this state, damage from all sources is doubled.<br><br>
+                                If all Notches are being used, the Overcharmed state cannot be activated. Activating the
+                                Overcharmed state for the first time requires 5 attempts.
+                            </p>
+                        </div>
+                        <div class="contentImg d-flex">
+                            <img class="rounded-4" src="img/hollow_knight_wiki_overcharmed_capture.jpg" width="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Charm List-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#soul" aria-expanded="false" href="#">
+                    <h2 class="head2">Charm List</h2>
+                </a>
+            </h2>
+            <div id="soul" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex flex-column align-items-center responsiveDiv py-3 w-100">
+                        <div
+                            class="d-flex responsiveFlexWrap justify-content-center align-items-center bigBox border bg-black rounded-4 p-2 mx-2">
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Wayward_Compass.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Wayward_Compass">
+                                        Wayward Compass
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Gathering_Swarm.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Gathering_Swarm">
+                                        Gathering Swarm
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Stalwart_Shell.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Stalwart_Shell">
+                                        Stalwart Shell
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Soul_Catcher.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Soul_Catcher">
+                                        Soul Catcher
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Shaman_Stone.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Shaman_Stone">
+                                        Shaman Stone
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Soul_Eater.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Soul_Eater">
+                                        Soul Eater
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Dashmaster.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Dashmaster">
+                                        Dashmaster
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Sprintmaster.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Sprintmaster">
+                                        Sprintmaster
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Grubsong.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Grubsong">
+                                        Grubsong
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Grubberfly27s_Elegy.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Grubberfly%27s_Elegy">
+                                        Grubberfly's Elegy
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Fragile_Heart.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Fragile_Heart">
+                                        Fragile Heart
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Unbreakable_Heart.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Fragile_Heart">
+                                        Unbreakable Heart
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Fragile_Greed.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Fragile_Greed">
+                                        Fragile Greed
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Unbreakable_Greed.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Fragile_Greed">
+                                        Unbreakable Greed
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Fragile_Strength.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Fragile_Strength">
+                                        Fragile Strength
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Unbreakable_Strength.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Fragile_Strength">
+                                        Unbreakable Strength
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Spell_Twister.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Spell_Twister">
+                                        Spell Twister
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Steady_Body.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Steady_Body">
+                                        Steady Body
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Heavy_Blow.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Heavy_Blow">
+                                        Heavy Blow
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Quick_Slash.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Quick_Slash">
+                                        Quick Slash
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Longnail.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Longnail">
+                                        Longnail
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Mark_of_Pride.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Mark_of_Pride">
+                                        Mark of Pride
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Fury_of_the_Fallen.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Fury_of_the_Fallen">
+                                        Fury of the Fallen
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Thorns_of_Agony.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Thorns_of_Agony">
+                                        Thorns of Agony
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Baldur_Shell.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Baldur_Shell">
+                                        Baldur Shell
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Flukenest.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Flukenest">
+                                        Flukenest
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Defender27s_Crest.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Defender%27s_Crest">
+                                        Defender's Crest
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Glowing_Womb.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Glowing_Womb">
+                                        Glowing Womb
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Quick_Focus.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Quick_Focus">
+                                        Quick Focus
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Deep_Focus.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Deep_Focus">
+                                        Deep Focus
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Lifeblood_Heart.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Lifeblood_Heart">
+                                        Lifeblood Heart
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Lifeblood_Core.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Lifeblood_Core">
+                                        Lifeblood Core
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Joni27s_Blessing.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Joni%27s_Blessing">
+                                        Joni's Blessing
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Hiveblood.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Hiveblood">
+                                        Hiveblood
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Spore_Shroom.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Spore_Shroom">
+                                        Spore Shroom
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Sharp_Shadow.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Sharp_Shadow">
+                                        Sharp Shadow
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Shape_of_Unn.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Shape_of_Unn">
+                                        Shape of Unn
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Nailmaster27s_Glory.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Nailmaster%27s_Glory">
+                                        Nailmaster's Glory
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Weaversong.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Weaversong">
+                                        Weaversong
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Dream_Wielder.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Dream_Wielder">
+                                        Dream Wielder
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Dreamshield.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Dreamshield">
+                                        Dreamsheild
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Grimmchild.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Grimmchild">
+                                        Grimmchild
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Carefree_Melody.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Carefree_Melody">
+                                        Carefree Melody
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Kingsoul.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Kingsoul">
+                                        Kingsoul
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="img/Void_Heart.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!" href="https://hollowknight.fandom.com/wiki/Void_Heart">
+                                        Void Heart
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+    <div class="container-fluid bg-lightgrey" id="contact">
+        <div class="container d-flex justify-content-center align-items-center py-3">
+            <h2>CONTACT US:</h2>
+        </div>
+        <div class="container d-flex py-4 align-items-center justify-content-evenly">
+            <div class="d-flex" id="contactBoxLeft"><img src="img/contactimg.webp" width="100%" alt=""></div>
+            <div class="d-flex bg-dark rounded-4 mx-3 p-4 justify-content-between" id="contactBoxRight">
+                <div class="container d-flex flex-column justify-content-evenly m-0 p-0 w-25">
+                    <div class="d-flex relative">
+                        <img class="w-25 me-4" src="img/facebook.png" width="100%" alt="">
+                        <a class="d-flex text-decoration-none text-light align-items-center stretched-link w-75 link"
+                            href="https://www.facebook.com/search/top?q=hollow%20knight">
+                            Facebook
+                        </a>
+                    </div>
+                    <div class="d-flex relative">
+                        <img class="w-25 me-4" src="img/insta.png" width="100%" alt="">
+                        <a class="d-flex text-decoration-none text-light align-items-center stretched-link w-75 link"
+                            href="https://www.instagram.com/explore/tags/hollowknight/">
+                            Instagram
+                        </a>
+                    </div>
+                    <div class="d-flex relative">
+                        <img class="w-25 me-4" src="img/twitter.png" width="100%" alt="">
+                        <a class="d-flex text-decoration-none text-light align-items-center stretched-link w-75 link"
+                            href="https://twitter.com/TeamCherryGames">
+                            Twitter
+                        </a>
+                    </div>
+                    <div class="d-flex relative">
+                        <img class="w-25 me-4" src="img/gmail.png" width="100%" alt="">
+                        <a class="d-flex text-decoration-none text-light align-items-center stretched-link w-75 link"
+                            href="https://www.teamcherry.com.au/contact">
+                            Email
+                        </a>
+                    </div>
+                </div>
+                <div class="container w-50 m-0 p-0">
+                    <img class="rounded-4" src="img/contactimg2.jpg" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>

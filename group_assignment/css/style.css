@@ -1,37 +1,42 @@
 html body {
     background-color: #3a3a3a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white !important;
+    color: white;
 }
 
 /*#text*/
-p {
-    font-size: 1.5vw !important;
-    margin: 1% 0% !important;
+.para {
+    font-size: 1.5vw;
+    margin: 1% 0%;
 }
 
-h1 {
-    font-size: 6vw !important;
-    margin: 1% 0% !important;
+.head1 {
+    font-size: 6vw;
+    margin: 1% 0%;
 }
 
-h2 {
-    font-size: 3vw !important;
-    margin: 1% 0% !important;
+.head2 {
+    font-size: 3vw;
+    margin: 1% 0%;
 }
 
-h4 {
-    font-size: 1.5vw !important;
-    margin: 1% 0% !important;
+.head3 {
+    font-size: 2vw;
+    margin: 1% 0%;
+}
+
+.head4 {
+    font-size: 1.5vw;
+    margin: 1% 0%;
 }
 
 
-a {
-    font-size: 1.5vw !important;
+.link {
+    font-size: 1.5vw;
 }
 
 .dropdownLink a {
-    font-size: 1.8vw !important;
+    font-size: 1.8vw;
 }
 
 /*#endregion*/
@@ -42,11 +47,11 @@ a {
 }
 
 .bg-black {
-    background-color: black !important;
+    background-color: black;
 }
 
 .bg-grey {
-    background-color: rgb(93, 93, 93) !important;
+    background-color: rgb(93, 93, 93);
 }
 
 .bg-greyGradient {
@@ -58,7 +63,7 @@ a {
 }
 
 .bg-yellowGradient {
-    background-image: linear-gradient(to bottom right, gold, rgb(255, 231, 96));
+    background-image: linear-gradient(to bottom right, rgb(255, 115, 0), rgb(187, 146, 49));
 }
 
 .bg-lightgrey {
@@ -76,12 +81,16 @@ a {
     height: 20%;
 }
 
+.w-15 {
+    width: 15%;
+}
+
 .w-30 {
     width: 30%;
 }
 
 .w-80 {
-    width: 80% !important;
+    width: 80%;
 }
 
 .contentText {
@@ -94,23 +103,27 @@ a {
 }
 
 .othersWidth {
-    width: 50% !important;
-}
-
-.imgSizeResponsive {
-    width: 50% !important;
-}
-
-.othersImg {
     width: 50%;
 }
 
-.nailArtsBox {
-    width: 80% !important;
+.othersImg {
+    width: 20%;
+}
+
+.othersBigWidth {
+    width: 50%;
+}
+
+.imgSizeResponsive {
+    width: 50%;
+}
+
+.bigBox {
+    width: 80%;
 }
 
 .lilBoxLink {
-    width: 30% !important;
+    width: 25%;
 }
 /*#endregion*/
 
@@ -128,6 +141,21 @@ a {
     background-size: 110vw;
 }
 
+#charmsHeaderImg {
+    background-image: url(../img/hollow-knight-all-charm-locations-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110vw;
+}
+
+#itemsHeaderImg {
+    background-image: url(../img/items.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110vw;
+}
+
+
 #contactBoxLeft {
     width: 30%;
 }
@@ -144,59 +172,68 @@ a {
     position: relative;
 }
 
+.responsiveFlexWrap {
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 1000px) {
-    p {
-        font-size: 2vw !important;
+    .para {
+        font-size: 2vw;
     }
 
     h4 {
-        font-size: 2.5vw !important;
+        font-size: 2.5vw;
     }
 
-    h2 {
-        font-size: 2.5vw !important;
+    .head2 {
+        font-size: 2.5vw;
     }
 
-    a {
-        font-size: 1.5vw !important;
+    .link {
+        font-size: 1.5vw;
+    }
+
+    .head3 {
+        font-size: 2vw;
     }
 
     .dropdownLink a {
-        font-size: 2vw !important;
+        font-size: 2vw;
     }
 
     .w-30 {
         width: 45%;
     }
 
-    .othersImg {
-        width: 80%;
-    }
-
     .othersWidth {
-        width: 80% !important;
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 800px) {
-    p {
-        font-size: 2vw !important;
+    .para {
+        font-size: 2vw;
     }
 
     h4 {
-        font-size: 2vw !important;
+        font-size: 2vw;
     }
 
-    h2 {
-        font-size: 2.5vw !important;
+    .head2 {
+        font-size: 3vw;
     }
 
-    a {
-        font-size: 2vw !important;
+    .head3 {
+        font-size: 2vw;
+
+    }
+
+    .link {
+        font-size: 2vw;
     }
 
     .dropdownLink a {
-        font-size: 3vw !important;
+        font-size: 3vw;
     }
 
     .w-30 {
@@ -212,29 +249,43 @@ a {
     }
 
     .imgSizeResponsive {
-        width: 50% !important;
+        width: 50%;
+    }
+    
+    .othersWidth {
+        width: 100%;
+    }
+
+    .othersImg {
+        display: none;
+        width: 0%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    p {
-        font-size: 2vw !important;
+    .para {
+        font-size: 2vw;
     }
 
     h4 {
-        font-size: 3vw !important;
+        font-size: 3vw;
     }
 
-    h2 {
-        font-size: 3vw !important;
+    .head2 {
+        font-size: 5vw;
     }
 
-    a {
-        font-size: 2vw !important;
+    .head3 {
+        font-size: 3vw;
+
+    }
+
+    .link {
+        font-size: 2vw;
     }
 
     .dropdownLink a {
-        font-size: 3vw !important;
+        font-size: 3vw;
     }
 
     .w-30 {
@@ -242,59 +293,84 @@ a {
     }
 
     .contentImg {
-        width: 80% !important;
-        justify-content: center !important;
-        padding: 0% !important;
+        width: 80%;
+        justify-content: center;
+        padding: 0%;
     }
 
     .contentText {
-        width: 100% !important;
+        width: 100%;
     }
 
     .othersWidth {
-        width: 100% !important;
+        width: 100%;
     }
 
     .imgSizeResponsive {
-        width: 30% !important;
+        width: 30%;
     }
 
     .responsiveDiv {
-        flex-direction: column !important;
+        flex-direction: column;
     }
 
     .responsiveDivReverse {
-        flex-direction: column-reverse !important;
+        flex-direction: column-reverse;
     }
 
-    .nailArtsBox {
-        width: 100% !important;
+    .bigBox {
+        width: 100%;
     }
 
     .lilBoxLink {
-        width: 40% !important;
+        width: 40%;
+    }
+
+    .responsiveFlexWrap {
+        flex-wrap: wrap;
+    }
+
+    .othersWidth {
+        width: 100%;
+    }
+
+    .othersImg {
+        display: none;
+        width: 0%;
+    }
+
+    .othersContainer {
+        margin: auto;
     }
 }
 
 @media screen and (max-width: 450px) {
-    p {
-        font-size: 3vw !important;
+    .para {
+        font-size: 3vw;
     }
 
-    h2 {
-        font-size: 3vw !important;
+    .head2 {
+        font-size: 6vw;
     }
 
-    a {
-        font-size: 2.5vw !important;
+    .head3 {
+        font-size: 2vw;
+    }
+
+    .link {
+        font-size: 1.8vw;
     }
 
     .dropdownLink a {
-        font-size: 4vw !important;
+        font-size: 4vw;
     }
 
     .w-30 {
         width: 70%;
+    }
+
+    .w-15 {
+        width: 30%;
     }
 
     .justifyContent {
@@ -302,8 +378,8 @@ a {
     }
 
     #contactBoxLeft {
-        display: none !important;
-        width: 0% !important;
+        display: none;
+        width: 0%;
     }
 
     #contactBoxRight {
@@ -311,36 +387,41 @@ a {
     }
 
     .body {
-        width: 100% !important;
+        width: 100%;
     }
 
     .w-80 {
-        width: 100% !important;
+        width: 100%;
     }
 
     .imgSizeResponsive {
-        width: 50% !important;
+        width: 50%;
     }
 
     .contentImg {
-        width: 100% !important;
-        justify-content: center !important;
+        width: 100%;
+        justify-content: center;
     }
 
     .contentText {
-        width: 100% !important;
+        width: 100%;
     }
 
     .othersWidth {
-        width: 100% !important;
+        width: 100%;
+    }
+
+    .othersImg {
+        display: none;
+        width: 0%;
     }
 
     .responsiveDiv {
-        flex-direction: column !important;
+        flex-direction: column;
     }
 
     .responsiveDivReverse {
-        flex-direction: column-reverse !important;
+        flex-direction: column-reverse;
     }
 
     .responsiveFlexWrap {
@@ -348,6 +429,6 @@ a {
     }
 
     .lilBoxLink {
-        width: 35% !important;
+        width: 35%;
     }
 }

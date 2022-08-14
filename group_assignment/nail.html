@@ -16,82 +16,87 @@
 
 <body>
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-lg bg-black sticky-top py-2">
+    <nav class="navbar navbar-expand-lg sticky-top bg-black py-2">
         <div class="container-fluid">
-            <img src="img/title.jpg" alt="" width="150">
+            <div class="w-15">
+                <img src="img/title.jpg" alt="" width="100%">
+            </div>
             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end nav-pills mx-2" id="navbarNavDropdown">
-                <ul class="navbar-nav border-0 bg-secondary rounded-3 px-2 py-2">
-                    <li class="nav-item">
-                        <a class="nav-link link-light px-2" aria-current="page" href="index.html">Home</a>
+                <ul class="navbar-nav border-0 bg-secondary rounded-3 px-2 py-2 justify-content-end">
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link bg-dark dropdown-toggle link-light px-2" href="#" role="button"
+                    <li class="nav-item dropdown link">
+                        <a class="nav-link dropdown-toggle link-light bg-dark active px-2" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             The Knight
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark p-2">
-                            <li><a class="dropdown-item link-light rounded-3 p-2" href="knight.html">Character
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="knight.html">Character
                                     Introduction</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2"
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
                                     href="weixian/spells&abilities.html">Spells and Abilities</a></li>
-                            <li><a class="dropdown-item link-light bg-dark rounded-3 p-2" href="nail.html">Nail
-                                    (Weapon)</a>
+                            <li><a class="dropdown-item link-light rounded-3 bg-dark active p-2 link"
+                                    href="nail.html">Nail
+                                    (Weapon)</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="charms.html">Charms</a>
                             </li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2" href="charms.html">Charms</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2" href="items.html">Items</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="items.html">Items</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown link">
                         <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Story
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark p-2">
-                            <li><a class="dropdown-item link-light rounded-3 p-2" href="weixian/mainstory.html">Main
-                                    Story</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2"
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="weixian/mainstory.html">Main Story</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
                                     href="weixian/endings.html">Endings</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2" href="grimmtroupe.html">The Grimm
-                                    Troupe</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2" href="godmaster.html">Godmaster</a>
-                            </li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="thegrimtroupe/thegrimtroupe.html">The Grimm Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="godmaster/godmaster.html">Godmaster</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="#">The Collosuem of
+                                    Fools</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown link">
                         <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Bosses
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark p-2">
-                            <li><a class="dropdown-item link-light rounded-3 p-2"
-                                    href="mingjing/bosses.html#originalBosses">Original Bosses</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2"
-                                    href="mingjing/bosses.html#warriorDreams">Warrior Dreams</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2"
-                                    href="mingjing/bosses.html#grimmTroupeBosses">The Grimm Troupe</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2"
-                                    href="mingjing/bosses.html#godmasterBosses">Godmaster</a></li>
-                            <li><a class="dropdown-item link-light rounded-3 p-2"
-                                    href="mingjing/bosses.html#bossVariant">Boss Variants</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="bosses.html#originalBosses">Original Bosses</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="bosses.html#warriorDreams">Warrior Dreams</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="bosses.html">The Grimm
+                                    Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="bosses.html#godmaster">Godmaster</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="bosses.html">Boss
+                                    Variants</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light px-2" aria-current="page" href="weixian/gamemodes.html">Game
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" aria-current="page" href="weixian/gamemodes.html">Game
                             Modes</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light px-2" href="areas.html">Areas</a>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="areas.html">Areas</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light px-2" href="achivements.html">Achievements</a>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="achievement/achievement.html">Achievements</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light px-2" href="#contact">Contact</a>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -100,9 +105,9 @@
     <!--Header-->
     <div class="d-flex justify-content-end" id="nailHeaderImg">
         <div class="container d-flex flex-column align-items-end w-50 my-4 mx-2">
-            <h1 class="d-flex text-end mx-2 my-4">Nail</h1>
+            <h1 class="d-flex text-end mx-2 my-4 head1">Nail</h1>
             <div class="d-flex text-end text-dark mx-2 px-3 py-3 border bg-light rounded-3">
-                <h2>The weapon that stays with you till the end</h2>
+                <h3 class="head3">The weapon that stays with you till the end</h3>
             </div>
         </div>
     </div>
@@ -113,14 +118,14 @@
             <h2 class="accordion-header border-bottom border-4 body m-0">
                 <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
                     data-bs-toggle="collapse" data-bs-target="#nail" aria-expanded="false" href="#">
-                    <h2>Nail</h2>
+                    <h2 class="head2">Nail</h2>
                 </a>
             </h2>
             <div id="nail" class="accordion-collapse collapse show" aria-labelledby="headingOne">
                 <div class="accordion-body body py-2 px-0">
                     <div class="container-fluid d-flex responsiveDivReverse py-3">
                         <div class="contentText text-white d-flex align-items-center p-2">
-                            <p class="justify-content-center">
+                            <p class="justify-content-center para">
                                 Nail is the weapon used by several enemies, NPCs, and bosses in Holow Knight, including
                                 The Knight.<br><br>
                                 The Nail is upgradable by the Nailsmith in the City of Tears up to 4 times if given
@@ -139,7 +144,7 @@
             <h2 class="accordion-header border-bottom border-4 body m-0">
                 <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
                     data-bs-toggle="collapse" data-bs-target="#healthNSoul" aria-expanded="false" href="#">
-                    <h2>Upgrades</h2>
+                    <h2 class="head2">Upgrades</h2>
                 </a>
             </h2>
             <div id="healthNSoul" class="accordion-collapse collapse" aria-labelledby="headingOne">
@@ -149,8 +154,8 @@
                             <img class="rounded-4" src="img/oldNail.jpg" width="100%" alt="">
                         </div>
                         <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <h2>Old Nail</h2>
-                            <p class="justify-content-center">
+                            <h2 class="head2">Old Nail</h2>
+                            <p class="justify-content-center para">
                                 The original weapon of The Knight.<br><br>
                                 Damage: 5<br><br>
                                 Upgrade Cost: none
@@ -162,8 +167,8 @@
                             <img class="rounded-4" src="img/shpNail.jpg" width="100%" alt="">
                         </div>
                         <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <h2>Sharpened Nail</h2>
-                            <p class="justify-content-center">
+                            <h2 class="head2">Sharpened Nail</h2>
+                            <p class="justify-content-center para">
                                 The second upgrade of the Nail.<br><br>
                                 Damage: 9<br><br>
                                 Upgrade Cost: 250 Geo
@@ -175,8 +180,8 @@
                             <img class="rounded-4" src="img/chnNail .jpg" width="100%" alt="">
                         </div>
                         <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <h2>Channelled Nail</h2>
-                            <p class="justify-content-center">
+                            <h2 class="head2">Channelled Nail</h2>
+                            <p class="justify-content-center para">
                                 The Third upgrade of the Nail.<br><br>
                                 Damage: 13<br><br>
                                 Upgrade Cost: 800 Geo + 1 Pale Ore
@@ -188,8 +193,8 @@
                             <img class="rounded-4" src="img/coiledNail.jpg" width="100%" alt="">
                         </div>
                         <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <h2>Coiled Nail</h2>
-                            <p class="justify-content-center">
+                            <h2 class="head2">Coiled Nail</h2>
+                            <p class="justify-content-center para">
                                 The Forth upgrade of the Nail.<br><br>
                                 Damage: 17<br><br>
                                 Upgrade Cost: 2000 Geo + 2 Pale Ore
@@ -201,8 +206,8 @@
                             <img class="rounded-4" src="img/pureNail.jpg" width="100%" alt="">
                         </div>
                         <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <h2>Pure Nail</h2>
-                            <p class="justify-content-center">
+                            <h2 class="head2">Pure Nail</h2>
+                            <p class="justify-content-center para">
                                 The Fifth upgrade of the Nail.<br><br>
                                 Damage: 21<br><br>
                                 Upgrade Cost: 4000 Geo + 3 Pale Ore
@@ -217,14 +222,14 @@
             <h2 class="accordion-header border-bottom border-4 body m-0">
                 <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
                     data-bs-toggle="collapse" data-bs-target="#shade" aria-expanded="false" href="#">
-                    <h2>Nail Bouncing</h2>
+                    <h2 class="head2">Nail Bouncing</h2>
                 </a>
             </h2>
             <div id="shade" class="accordion-collapse collapse" aria-labelledby="headingOne">
                 <div class="accordion-body body py-2 px-0">
                     <div class="container-fluid d-flex responsiveDivReverse py-3">
                         <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <p class="justify-content-center">
+                            <p class="justify-content-center para">
                                 By jumping and slashing down with the Nail on environment jugs, spikes, or enemies, the
                                 Knight can bounce according to the game's physics which when the Nail hit something, The
                                 Knight
@@ -245,55 +250,106 @@
             <h2 class="accordion-header border-bottom border-4 body m-0">
                 <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
                     data-bs-toggle="collapse" data-bs-target="#soul" aria-expanded="false" href="#">
-                    <h2>Nail Arts</h2>
+                    <h2 class="head2">Nail Arts</h2>
                 </a>
             </h2>
             <div id="soul" class="accordion-collapse collapse" aria-labelledby="headingOne">
                 <div class="accordion-body body py-2 px-0">
                     <div class="container-fluid d-flex flex-column align-items-center responsiveDiv py-3 w-100">
                         <div class="contentText text-white d-flex justify-content-center flex-column w-100 p-2">
-                            <p class="justify-content-center">
+                            <p class="justify-content-center para">
                                 Nail Arts are different kinds of technique that can be learn through seeking their
                                 respective masters. There are 3 different masters which uniquely teaches The Knight
                                 their respective technique after paying some geo.
                             </p>
                         </div>
-                        <div class="d-flex responsiveFlexWrap justify-content-center align-items-center nailArtsBox border bg-black rounded-4 p-2 mx-2">
-                            <div class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                        <div
+                            class="d-flex responsiveFlexWrap justify-content-center align-items-center bigBox border bg-black rounded-4 p-2 mx-2">
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
                                 <div class="d-flex p-2">
                                     <img class="rounded-circle" src="img/Cyclone_Slash.jpg" width="100%">
                                 </div>
                                 <div class="d-flex p-2 container justify-content-center w-100 mx-0">
-                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0" data-bs-toggle="tooltip" data-bs-title="Click for more info!" 
-                                    href="https://hollowknight.fandom.com/wiki/Cyclone_Slash">
-                                    Cyclone Slash
-                                </a>
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!"
+                                        href="https://hollowknight.fandom.com/wiki/Cyclone_Slash">
+                                        Cyclone Slash
+                                    </a>
                                 </div>
                             </div>
-                            <div class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
                                 <div class="d-flex p-2">
                                     <img class="rounded-circle" src="img/Dash_Slash.jpg" width="100%">
                                 </div>
                                 <div class="d-flex p-2 container justify-content-center w-100 mx-0">
-                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0" data-bs-toggle="tooltip" data-bs-title="Click for more info!" 
-                                    href="https://hollowknight.fandom.com/wiki/Dash_Slash">
-                                    Dash Slash
-                                </a>
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!"
+                                        href="https://hollowknight.fandom.com/wiki/Dash_Slash">
+                                        Dash Slash
+                                    </a>
                                 </div>
                             </div>
-                            <div class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                            <div
+                                class="m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
                                 <div class="d-flex p-2">
                                     <img class="rounded-circle" src="img/Icon_HK_Great_Slash.jpg" width="100%">
                                 </div>
                                 <div class="d-flex p-2 container justify-content-center w-100 mx-0">
-                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0" data-bs-toggle="tooltip" data-bs-title="Click for more info!" 
-                                    href="https://hollowknight.fandom.com/wiki/Great_Slash">
-                                    Great Slash
-                                </a>
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!"
+                                        href="https://hollowknight.fandom.com/wiki/Great_Slash">
+                                        Great Slash
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+    <div class="container-fluid bg-lightgrey" id="contact">
+        <div class="container d-flex justify-content-center align-items-center py-3">
+            <h2>CONTACT US:</h2>
+        </div>
+        <div class="container d-flex py-4 align-items-center justify-content-evenly">
+            <div class="d-flex" id="contactBoxLeft"><img src="img/contactimg.webp" width="100%" alt=""></div>
+            <div class="d-flex bg-dark rounded-4 mx-3 p-4 justify-content-between" id="contactBoxRight">
+                <div class="container d-flex flex-column justify-content-evenly m-0 p-0 w-25">
+                    <div class="d-flex relative">
+                        <img class="w-25 me-4" src="img/facebook.png" width="100%" alt="">
+                        <a class="d-flex text-decoration-none text-light align-items-center stretched-link w-75 link"
+                            href="https://www.facebook.com/search/top?q=hollow%20knight">
+                            Facebook
+                        </a>
+                    </div>
+                    <div class="d-flex relative">
+                        <img class="w-25 me-4" src="img/insta.png" width="100%" alt="">
+                        <a class="d-flex text-decoration-none text-light align-items-center stretched-link w-75 link"
+                            href="https://www.instagram.com/explore/tags/hollowknight/">
+                            Instagram
+                        </a>
+                    </div>
+                    <div class="d-flex relative">
+                        <img class="w-25 me-4" src="img/twitter.png" width="100%" alt="">
+                        <a class="d-flex text-decoration-none text-light align-items-center stretched-link w-75 link"
+                            href="https://twitter.com/TeamCherryGames">
+                            Twitter
+                        </a>
+                    </div>
+                    <div class="d-flex relative">
+                        <img class="w-25 me-4" src="img/gmail.png" width="100%" alt="">
+                        <a class="d-flex text-decoration-none text-light align-items-center stretched-link w-75 link"
+                            href="https://www.teamcherry.com.au/contact">
+                            Email
+                        </a>
+                    </div>
+                </div>
+                <div class="container w-50 m-0 p-0">
+                    <img class="rounded-4" src="img/contactimg2.jpg" width="100%" alt="">
                 </div>
             </div>
         </div>
