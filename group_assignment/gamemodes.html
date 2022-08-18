@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>The Knight</title>
+    <title>Game Modes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse justify-content-end nav-pills mx-2" id="navbarNavDropdown">
                 <ul class="navbar-nav border-0 bg-secondary rounded-3 px-2 py-2 justify-content-end">
                     <li class="nav-item link">
-                        <a class="nav-link link-light px-2" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link link-light px-2" aria-current="page" href="endings.html">Home</a>
                     </li>
                     <li class="nav-item dropdown link">
                         <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button"
@@ -37,7 +37,7 @@
                             The Knight
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark p-2">
-                            <li><a class="dropdown-item bg-dark active link-light rounded-3 p-2 link" href="knight.html">Character
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="knight.html">Character
                                     Introduction</a></li>
                             <li><a class="dropdown-item link-light rounded-3 p-2 link"
                                     href="spellsandabilities.html">Spells and Abilities</a></li>
@@ -70,7 +70,7 @@
                         <a class="nav-link link-light px-2 link" aria-current="page" href="bosses.html">Bosses</a>
                     </li>
                     <li class="nav-item link">
-                        <a class="nav-link link-light px-2 link" aria-current="page" href="gamemodes.html">Game
+                        <a class="nav-link bg-dark active  link-light px-2 link" aria-current="page" href="gamemodes.html">Game
                             Modes</a>
                     </li>
                     <li class="nav-item link">
@@ -87,203 +87,133 @@
         </div>
     </nav>
     <!--Header-->
-    <div class="d-flex justify-content-end w-100" id="knightHeaderImg">
+    <div class="d-flex justify-content-end w-100" id="gamemodeHeaderImg">
         <div class="container d-flex flex-column align-items-end w-75 my-4 mx-2">
-            <h1 class="d-flex text-end mx-2 my-4 head1">The Knight</h1>
+            <h1 class="d-flex text-end mx-2 my-4 head1">Game Modes</h1>
             <div class="d-flex justify-content-end text-end text-dark mx-2 px-3 py-3 border bg-light rounded-3 w-50">
-                <h3 class="head3">The character you play as.</h3>
+                <h3 class="head3">Challenge yourself with different game modes</h3>
             </div>
         </div>
     </div>
     <!--Contents-->
     <div class="container-fluid my-4 px-4 accordion">
-        <!--Lore-->
+        <!--Game Modes-->
         <div class="accordion-item border-0 body">
             <h2 class="accordion-header border-bottom border-4 body m-0">
                 <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
-                    data-bs-toggle="collapse" data-bs-target="#lore" aria-expanded="false" href="#">
-                    <h2 class="head2">Lore</h2>
+                    data-bs-toggle="collapse" data-bs-target="#gamemodes" aria-expanded="false" href="#">
+                    <h2 class="head2">Game Modes</h2>
                 </a>
             </h2>
-            <div id="lore" class="accordion-collapse collapse" aria-labelledby="headingOne">
+            <div id="gamemodes" class="accordion-collapse collapse show" aria-labelledby="headingOne">
                 <div class="accordion-body body py-2 px-0">
                     <div class="container-fluid d-flex responsiveDivReverse py-3">
                         <div class="contentText text-white d-flex align-items-center p-2">
-                            <p class="justify-content-center para">The Knight has no name according to the
-                                developers and so the community usually call
-                                it Knight.<br><br>
-                                The Knight is one of the many discarded
-                                vessels. There soul purpose is to contain the
-                                Radiance the main villain. There are being
-                                made by the Pale King which is the ruler of
-                                Hallownest. The Knight is a vessel that
-                                unfortunately didn't make the cut to become
-                                the vessel to contain the Radiance.
+                            <p class="justify-content-center para">
+                                There are currently 3 game modes in Hollow Knight:<br>
+                                1. Classic<br>
+                                2. Steel Soul<br>
+                                3. Godseeker<br>
                             </p>
                         </div>
                         <div class="contentImg p-2">
-                            <img class="rounded-4 w-100" src="img/Pale_King_Abyss.jpg" width="50%" alt="">
+                            <img class="rounded-4 w-100" src="img/gamemodes.jpg" width="50%" alt="">
                         </div>
                     </div>
-                    <div class="container-fluid d-flex responsiveDiv py-3">
-                        <div class="contentImg p-2">
-                            <img class="rounded-4 w-100" src="img/lore2.jpg" width="50%" alt="">
+                </div>
+            </div>
+        </div>
+        <!--Classic-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#classic" aria-expanded="false" href="#">
+                    <h2 class="head2">Classic Mode</h2>
+                </a>
+            </h2>
+            <div id="classic" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="text-white d-flex align-items-center p-2">
+                            <p class="justify-content-center para">
+                                The classic mode that recommended for first-comer to get familiar to the game.
+                                It has the main story and a big map to explore and learn more about the game.
+                            </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Steel Soul-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#steelsoul" aria-expanded="false" href="#">
+                    <h2 class="head2">Steelsoul Mode</h2>
+                </a>
+            </h2>
+            <div id="steelsoul" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
                         <div class="contentText text-white d-flex align-items-center p-2">
                             <p class="justify-content-center para">
-                                Luckily it found a way to escape it's
-                                birthplace and wander out of Hallownest.<br><br>
-                                The story begin after this incident and the
-                                Knight return to Hallownest because of a call
-                                by someone either the Radiance or the
-                                chosen Vessel.
+                                Steel Soul Mode is a game mode in Hollow Knight that is unlocked after finishing the
+                                game for the first time.<br><br>
+                                Trying to enter a failed Steel Soul run results in asking if the player would like to
+                                clear the save slot. The save slot also says the word "DEFEATED" instead of the location
+                                the game was last saved in.
                             </p>
+                        </div>
+                        <div class="contentImg p-2">
+                            <img class="rounded-4 w-100" src="img/Steel_Soul.jpg" width="50%" alt="">
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentText text-white d-flex align-items-center p-2">
+                            <p class="justify-content-center para">
+                                In Steel Soul Mode, there are four main changes to gameplay, compared to Classic
+                                Mode:<br><br>
+                                1. The Knight does not respawn upon death. Once the Knight dies, the game ends and the
+                                save
+                                file is reset. Note: dying to a Dream Boss, or in Godhome, does NOT
+                                count as an actual death. However, dying in the White Palace or to the Radiance DOES
+                                result in a Game Over.<br><br>
+                                2. Unique animation upon dying.<br><br>
+                                3. Confessor Jiji is replaced by Steel Soul Jinn, who trades Rancid Eggs for
+                                Geo.<br><br>
+                                4. Tuk has been killed by the Infection, and does not sell Rancid Eggs. Found next to
+                                her
+                                corpse is a Rancid Egg.<br><br>
+                            </p>
+                        </div>
+                        <div class="contentImg d-flex align-items-center p-2">
+                            <img class="rounded-4 w-100" src="img/jinn.jpg" width="50%" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Health and Soul-->
+        <!--Godseeker-->
         <div class="accordion-item border-0 body">
             <h2 class="accordion-header border-bottom border-4 body m-0">
                 <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
-                    data-bs-toggle="collapse" data-bs-target="#healthNSoul" aria-expanded="false" href="#">
-                    <h2 class="head2">Health and Soul</h2>
+                    data-bs-toggle="collapse" data-bs-target="#godseeker" aria-expanded="false" href="#">
+                    <h2 class="head2">Godseeker Mode</h2>
                 </a>
             </h2>
-            <div id="healthNSoul" class="accordion-collapse collapse" aria-labelledby="headingOne">
+            <div id="godseeker" class="accordion-collapse collapse" aria-labelledby="headingOne">
                 <div class="accordion-body body py-2 px-0">
                     <div class="container-fluid d-flex responsiveDivReverse py-3">
-                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <h2>Health</h2>
+                        <div class="contentText text-white d-flex align-items-center p-2">
                             <p class="justify-content-center para">
-                                Your health in the game is represented by Masks
-                                that is shown in the upper-left corner of the screen.
-                                You start with 5 and can gain more via collecting
-                                Mask Shards. 4 Mask Shards equals to 1 Masks
-                                and you can have a total of 9 Masks.<br><br>
-                                You lost health via taking damage from enemies
-                                or from environmental hazards.Health can be
-                                regain via Focus or sitting on a Bench.
+                                after completing the first three Pantheons in Godhome. The main purpose of this game
+                                mode is to let the player to gain access to almost all of the boss fight in the game.
+                                The player is given the fully upgraded Knight, fully upgraded Nail, most of the Charms,
+                                upgraded spells and abilities without playing through the main game.
                             </p>
                         </div>
-                        <div class="contentImg px-2 d-flex">
-                            <img class="rounded-4 imgSizeResponsive" src="img/health.jpg" width="50%" alt="">
-                        </div>
-                    </div>
-                    <div class="container-fluid d-flex responsiveDivReverse py-3">
-                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <h2 class="head2">Lifeblood Masks</h2>
-                            <p class="justify-content-center para">
-                                Granted by Lifeseeds and certain Charms. These
-                                are Masks that is one used and cannot be healed
-                                using focus. They also disappear when you are
-                                resting on a bench.
-                            </p>
-                        </div>
-                        <div class="contentImg px-2 d-flex">
-                            <img class="rounded-4 imgSizeResponsive" src="img/lifeblood.png" width="50%" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Shade-->
-        <div class="accordion-item border-0 body">
-            <h2 class="accordion-header border-bottom border-4 body m-0">
-                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
-                    data-bs-toggle="collapse" data-bs-target="#shade" aria-expanded="false" href="#">
-                    <h2 class="head2">Shade</h2>
-                </a>
-            </h2>
-            <div id="shade" class="accordion-collapse collapse" aria-labelledby="headingOne">
-                <div class="accordion-body body py-2 px-0">
-                    <div class="container-fluid d-flex responsiveDivReverse py-3">
-                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <p class="justify-content-center para">
-                                When you die you leave an entity called Shade. You will
-                                return to the Bench you last rested on but with a
-                                third of your SOUL gauge missing and without
-                                any Geo.<br><br>
-                                In order to regain your whole SOUL and Geo, you
-                                need to go back to the place you die and defeat
-                                the Shade.
-                                For reminder the Shade will fight back and
-                                occasionally cast Vengeful Spirit.
-                            </p>
-                        </div>
-                        <div class="contentImg px-2 d-flex">
-                            <img class="rounded-4 imgSizeResponsive" src="img/shade.jpg" width="50%" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--SOUL-->
-        <div class="accordion-item border-0 body">
-            <h2 class="accordion-header border-bottom border-4 body m-0">
-                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
-                    data-bs-toggle="collapse" data-bs-target="#soul" aria-expanded="false" href="#">
-                    <h2 class="head2">SOUL</h2>
-                </a>
-            </h2>
-            <div id="soul" class="accordion-collapse collapse" aria-labelledby="headingOne">
-                <div class="accordion-body body py-2 px-0">
-                    <div class="container-fluid d-flex responsiveDivReverse py-3">
-                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
-                            <p class="justify-content-center para">
-                                SOUL is represented by a circular mask to the left
-                                of your health. It was used for casting spells and
-                                sometimes used for certain Charms.<br><br>
-                                Soul can be replenished by hitting enemies with
-                                your Nail. Gather 3 Vessel Fragments increases
-                                your maximum SOUL.
-                            </p>
-                        </div>
-                        <div class="contentImg px-2 d-flex">
-                            <img class="rounded-4 imgSizeResponsive" src="img/Soul_Meter.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Others-->
-        <div class="accordion-item border-0 body">
-            <h2 class="accordion-header border-bottom border-4 body m-0">
-                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
-                    data-bs-toggle="collapse" data-bs-target="#others" aria-expanded="false" href="#">
-                    <h2 class="head2">Others</h2>
-                </a>
-            </h2>
-            <div id="others" class="accordion-collapse d-flex justify-content-center" aria-labelledby="headingOne">
-                <div class="accordion-body body py-4 px-4 othersBigWidth d-flex justify-content-between">
-                    <div class="container d-flex justify-content-center py-3 border bg-light rounded-4">
-                        <div class="d-flex justify-content-center othersImg">
-                            <img class="rounded-4" src="img/othersImg.jpg" width="100%" alt="">
-                        </div>
-                        <div class="othersWidth text-white d-flex justify-content-center flex-column ps-2">
-                            <ul>
-                                <li class="text-dark py-2">
-                                    <a class="text-decoration-none text-dark link" href="#">
-                                        Nail
-                                    </a>
-                                </li>
-                                <li class="text-dark py-2">
-                                    <a class="text-decoration-none text-dark link" href="#">
-                                        Charms
-                                    </a>
-                                </li>
-                                <li class="text-dark py-2">
-                                    <a class="text-decoration-none text-dark link" href="#">
-                                        Spells and Abilities
-                                    </a>
-                                </li>
-                                <li class="text-dark py-2">
-                                    <a class="text-decoration-none text-dark link" href="#">
-                                        Items
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="contentImg p-2">
+                            <img class="rounded-4 w-100" src="img/Gg_godseeker_mode_selector.jpg" width="50%" alt="">
                         </div>
                     </div>
                 </div>

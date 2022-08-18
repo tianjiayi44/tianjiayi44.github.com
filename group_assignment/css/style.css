@@ -99,7 +99,7 @@ html body {
 
 .contentImg {
     width: 50%;
-    justify-content: end;
+    justify-content: center;
 }
 
 .othersWidth {
@@ -155,6 +155,33 @@ html body {
     background-size: 110vw;
 }
 
+#mainstoryHeaderImg {
+    background-image: url(../img/dirtmouth-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110vw;
+}
+
+#gamemodeHeaderImg {
+    background-image: url(../img/gamemode.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110vw;
+}
+
+#snaHeaderImg {
+    background-image: url(../img/snaheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110vw;
+}
+
+#arearsHeaderImg {
+    background-image: url(../img/areas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110vw;
+}
 
 #contactBoxLeft {
     width: 30%;
@@ -358,7 +385,7 @@ html body {
     }
 
     .link {
-        font-size: 1.8vw;
+        font-size: 3vw;
     }
 
     .dropdownLink a {

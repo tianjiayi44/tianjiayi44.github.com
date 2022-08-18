@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Bosses</title>
+    <title>Bosses</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bosses.css">
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="img/hollowknight_icon.png">
     <script src="https://kit.fontawesome.com/d75d34fd49.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,372 +15,606 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-black sticky-top py-2">
-    <div class="container-fluid">
-        <img src="img/title.jpg" alt="" width="150">
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end nav-pills mx-2" id="navbarNavDropdown">
-            <ul class="navbar-nav border-0 bg-secondary rounded-3 px-2 py-2">
-                <li class="nav-item">
-                    <a class="nav-link link-light px-2" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        The Knight
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark p-2">
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="knight.html">Character Introduction</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="weixian/spells&abilities.html">Spells and Abilities</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="nail.html">Nail (Weapon)</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="charms.html">Charms</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="items.html">Items</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Story
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark p-2">
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="weixian/mainstory.html">Main Story</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="weixian/endings.html">Endings</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="grimmtroupe.html">The Grimm Troupe</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="godmaster.html">Godmaster</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active bg-dark link-light px-2" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Bosses
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark p-2">
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="#originalBosses">Original Bosses</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="#warriorDreams">Warrior Dreams</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="">The Grimm Troupe</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="#godmaster">Godmaster</a></li>
-                        <li><a class="dropdown-item link-light rounded-3 p-2" href="">Boss Variants</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light px-2" aria-current="page" href="weixian/gamemodes.html">Game Modes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light px-2" href="areas.html">Areas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light px-2" href="achivements.html">Achievements</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-light px-2" href="#contact">Contact</a>
-                </li>
-            </ul>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-black py-2">
+        <div class="container-fluid">
+            <div class="w-15">
+                <img src="img/title.jpg" alt="" width="100%">
+            </div>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end nav-pills mx-2" id="navbarNavDropdown">
+                <ul class="navbar-nav border-0 bg-secondary rounded-3 px-2 py-2 justify-content-end">
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown link">
+                        <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            The Knight
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="knight.html">Character
+                                    Introduction</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="spellsandabilities.html">Spells and Abilities</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="nail.html">Nail
+                                    (Weapon)</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="charms.html">Charms</a>
+                            </li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="items.html">Items</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown link">
+                        <a class="nav-link dropdown-toggle link-light px-2" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Story
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark p-2">
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="mainstory.html">Main Story</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="endings.html">Endings</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="thegrimtroupe.html">The Grimm Troupe</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link"
+                                    href="godmaster.html">Godmaster</a></li>
+                            <li><a class="dropdown-item link-light rounded-3 p-2 link" href="ColosseumOfFools.html">The Collosuem of
+                                    Fools</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light bg-dark active  px-2 link" aria-current="page" href="bosses.html">Bosses</a>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" aria-current="page" href="gamemodes.html">Game
+                            Modes</a>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="areas.html">Areas</a>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="achievement.html">Achievements</a>
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link link-light px-2 link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <div class="d-flex justify-content-end" id="nailHeaderImg">
+        <div class="container d-flex flex-column align-items-end w-50 my-4 mx-2">
+            <h1 class="d-flex text-end mx-2 my-4 head1">Bosses</h1>
+            <div class="d-flex text-end text-dark mx-2 px-3 py-3 border bg-light rounded-3">
+                <h3 class="head3">Bosses In The Game You Will Meet</h3>
+            </div>
         </div>
     </div>
-</nav>
-  <div class="main_container">
-    <div class="nav_bottom mt-3">
-      <div class="image_text">
-        Bosses
-      </div>
+    <!--Contents-->
+    <div class="container-fluid my-4 px-4 accordion">
+        <!--Nail-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#nail" aria-expanded="false" href="#">
+                    <h2 class="head2">Bosses</h2>
+                </a>
+            </h2>
+            <div id="nail" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentText text-white d-flex align-items-center p-2">
+                            <p class="justify-content-center para">
+                                Bosses are unique enemies in Hollow Knight that typically have higher health or deal
+                                more damage than the standard creatures in the same area. The Knight may have to defeat
+                                a Boss to access a new area, acquire an item, complete a quest, or simply further the
+                                main story of the game.
+                                <br><br>
+                                When the Knight encounters a boss, the name usually appears on-screen follow by the
+                                music changes into the boss unique battle theme.
+                                Counting the variations, there are 47 bosses in the game.
+                            </p>
+                        </div>
+                        <div class="contentImg p-2">
+                            <img class="rounded-4 w-100" src="group_assignment.image/bosses_image.jpg" width="50%"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Original Bosses-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#healthNSoul" aria-expanded="false" href="#">
+                    <h2 class="head2">Original Bosses</h2>
+                </a>
+            </h2>
+            <div id="healthNSoul" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/False_Knight">
+                                <img class="rounded-4" src="group_assignment.image/image 58.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">False Knight</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Gruz_Mother">
+                                <img class="rounded-4" src="group_assignment.image/image 59.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Gruz Mother</h2>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Hornet_Protector">
+                            <img class="rounded-4" src="group_assignment.image/image 60.png" width="100%" alt="">
+                        </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Hornet Protector</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Mantis_Lords">
+                            <img class="rounded-4" src="group_assignment.image/image 61.png" width="100%" alt="">
+                        </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Mantis Lords</h2>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Massive_Moss_Charger">
+                            <img class="rounded-4" src="group_assignment.image/image 62.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Massive Moss Charger</h2>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Soul_Master">
+                            <img class="rounded-4" src="group_assignment.image/image 63.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Soul Master</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Soul_Warrior">
+                            <img class="rounded-4" src="group_assignment.image/image 64.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Soul Warrior</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Uumuu">
+                            <img class="rounded-4" src="group_assignment.image/image 66.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Uumuu</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Watcher_Knight">
+                            <img class="rounded-4" src="group_assignment.image/image 67.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Watcher Knight</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Nosk">
+                            <img class="rounded-4" src="group_assignment.image/image 68.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Nosk</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Brooding_Mawlek">
+                            <img class="rounded-4" src="group_assignment.image/image 69.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Brooding Mawlek</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Collector">
+                            <img class="rounded-4" src="group_assignment.image/image 70.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">The Collector</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Crystal_Guardian">
+                            <img class="rounded-4" src="group_assignment.image/image 71.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Crystal Guardian</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Dung_Defender">
+                            <img class="rounded-4" src="group_assignment.image/image 72.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Dung Defender</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Flukemarm">
+                            <img class="rounded-4" src="group_assignment.image/image 73.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Flukemarm</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Broken_Vessel">
+                            <img class="rounded-4" src="group_assignment.image/image 74.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Broken Vessel</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Oblobbles">
+                            <img class="rounded-4" src="group_assignment.image/image 75.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Oblobbles</h2>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Traitor_Lord">
+                            <img class="rounded-4" src="group_assignment.image/image 76.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Traitor Lord</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Warrior Dream-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#shade" aria-expanded="false" href="#">
+                    <h2 class="head2">Warrior Dream</h2>
+                </a>
+            </h2>
+            <div id="shade" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <p class="justify-content-center para">
+                                Dream bosses is a unique form of boss in that the Knight can only challenge them once
+                                they have acquired the Dream Nail.
+                                Defeating a Warrior Dream rewards a large amount of
+                                Essence.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <a href="https://hollowknight.fandom.com/wiki/Elder_Hu">
+                            <img class="rounded-4" src="group_assignment.image/image 77.png" width="100%" alt="">
+                            </a>
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Elder Hu</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex responsiveDivReverse py-3">
+                    <div class="contentImg p-5 d-flex">
+                        <a href="https://hollowknight.fandom.com/wiki/Galien">
+                        <img class="rounded-4" src="group_assignment.image/image 78.png" width="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                        <h2 class="head2">Galien</h2>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex responsiveDivReverse py-3">
+                    <div class="contentImg p-5 d-flex">
+                        <a href="https://hollowknight.fandom.com/wiki/Gorb">
+                        <img class="rounded-4" src="group_assignment.image/image 79.png" width="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                        <h2 class="head2">Gorb</h2>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex responsiveDivReverse py-3">
+                    <div class="contentImg p-5 d-flex">
+                        <a href="https://hollowknight.fandom.com/wiki/Markoth">
+                        <img class="rounded-4" src="group_assignment.image/image 80.png" width="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                        <h2 class="head2">Markoth</h2>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex responsiveDivReverse py-3">
+                    <div class="contentImg p-5 d-flex">
+                        <a href="https://hollowknight.fandom.com/wiki/Marmu">
+                        <img class="rounded-4" src="group_assignment.image/image 81.png" width="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                        <h2 class="head2">Marmu</h2>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex responsiveDivReverse py-3">
+                    <div class="contentImg p-5 d-flex">
+                        <a href="https://hollowknight.fandom.com/wiki/No_Eyes">
+                        <img class="rounded-4" src="group_assignment.image/image 82.png" width="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                        <h2 class="head2">No Eyes</h2>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex responsiveDivReverse py-3">
+                    <div class="contentImg p-5 d-flex">
+                        <a href="https://hollowknight.fandom.com/wiki/Xero">
+                        <img class="rounded-4" src="group_assignment.image/image 83.png" width="100%" alt="">
+                        </a>
+                    </div>
+                    <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                        <h2 class="head2">Xero</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fake-Out Bosses-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#soul" aria-expanded="false" href="#">
+                    <h2 class="head2">Fake-Out Bosses</h2>
+                </a>
+            </h2>
+            <div id="soul" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex flex-column align-items-center responsiveDiv py-3 w-100">
+                        <div class="contentText text-white d-flex justify-content-center flex-column w-100 p-2">
+                            <p class="justify-content-center para">
+                                Bosses that include an intro sequence with a name card or a battle theme, but are not
+                                fought and have no purpose beyond being a joke or a surprise.
+                            </p>
+                        </div>
+                        <div
+                            class="d-flex responsiveFlexWrap justify-content-center align-items-center nailArtsBox border bg-black rounded-4 p-2 mx-2">
+                            <div
+                                class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="group_assignment.image/image 84.png" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!"
+                                        href="https://hollowknight.fandom.com/wiki/Hunter">
+                                        The Hunter
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="group_assignment.image/image 85.png" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!"
+                                        href="https://hollowknight.fandom.com/wiki/Tiso">
+                                        Tiso
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Joke boss-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#soul1" aria-expanded="false" href="#">
+                    <h2 class="head2">Joke Boss</h2>
+                </a>
+            </h2>
+            <div id="soul1" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex flex-column align-items-center responsiveDiv py-3 w-100">
+                        <div class="contentText text-white d-flex justify-content-center flex-column w-100 p-2">
+                            <p class="justify-content-center para">
+                                The boss that does not fight back when entering their boss fight and can be easily
+                                defeat.
+                            </p>
+                        </div>
+                        <div
+                            class="d-flex responsiveFlexWrap justify-content-center align-items-center nailArtsBox border bg-black rounded-4 p-2 mx-2">
+                            <div
+                                class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="group_assignment.image/image 92.png" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link"
+                                        data-bs-toggle="tooltip" data-bs-title="Click for more info!"
+                                        href="https://hollowknight.fandom.com/wiki/Zote">
+                                        Zote
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Godmaster Bosses-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#shade5" aria-expanded="false" href="#">
+                    <h2 class="head2">Godmaster Bosses</h2>
+                </a>
+            </h2>
+            <div id="shade5" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <p class="justify-content-center para">
+                                Godmaster is something like a boss rush mode for Hollow Knight and that include some
+                                bosses that are not fightable when exploring the map. For this section we will be only
+                                discuss about those bosses.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container-fluid d-flex responsiveDivReverse py-3">
+                        <div class="contentImg p-5 d-flex">
+                            <img class="rounded-4" src="group_assignment.image/image 93.png" width="100%" alt="">
+                        </div>
+                        <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                            <h2 class="head2">Brothers Oro & Mato</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex responsiveDivReverse py-3">
+                    <div class="contentImg p-5 d-flex">
+                        <img class="rounded-4" src="group_assignment.image/image 94.png" width="100%" alt="">
+                    </div>
+                    <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                        <h2 class="head2">Great Nailsage Sly</h2>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex responsiveDivReverse py-3">
+                    <div class="contentImg p-5 d-flex">
+                        <img class="rounded-4" src="group_assignment.image/image 95.png" width="100%" alt="">
+                    </div>
+                    <div class="contentText text-white d-flex justify-content-center flex-column p-2">
+                        <h2 class="head2">Paintmaster Sheo</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--The grim-->
+        <div class="accordion-item border-0 body">
+            <h2 class="accordion-header border-bottom border-4 body m-0">
+                <a class="accordion-button collapsed body text-light py-2 text-decoration-none"
+                    data-bs-toggle="collapse" data-bs-target="#soul2" aria-expanded="false" href="#">
+                    <h2 class="head2">The Grimm Troupe Boss</h2>
+                </a>
+            </h2>
+            <div id="soul2" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body body py-2 px-0">
+                    <div class="container-fluid d-flex flex-column align-items-center responsiveDiv py-3 w-100">
+                        
+                        <div class="d-flex responsiveFlexWrap justify-content-center align-items-center nailArtsBox border bg-black rounded-4 p-2 mx-2">
+                            <div class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="group_assignment.image/Grimm.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link" data-bs-toggle="tooltip" data-bs-title="Click for more info!" 
+                                    href="https://hollowknight.fandom.com/wiki/Cyclone_Slash">
+                                    Grimm
+                                </a>
+                                </div>
+                            </div>
+                            <div class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="group_assignment.image/Lifeblood_Update.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link" data-bs-toggle="tooltip" data-bs-title="Click for more info!" 
+                                    href="https://hollowknight.fandom.com/wiki/Dash_Slash">
+                                    LifeBlood Boss
+                                </a>
+                                </div>
+                            </div>
+                            <div class="container-fluid m-3 p-0 d-flex justify-content-center align-items-center flex-column relative lilBoxLink bg-grey rounded-3">
+                                <div class="d-flex p-2">
+                                    <img class="rounded-circle" src="group_assignment.image/Hive_knight.jpg" width="100%">
+                                </div>
+                                <div class="d-flex p-2 container justify-content-center w-100 mx-0">
+                                    <a class="stretched-link text-decoration-none text-light d-flex p-2 container justify-content-center w-100 mx-0 link" data-bs-toggle="tooltip" data-bs-title="Click for more info!" 
+                                    href="https://hollowknight.fandom.com/wiki/Great_Slash">
+                                    Hive Knight
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="image_bottom" id="originalBosses">
-      <div class="title mt-3 ms-3">Bosses</div>
-      <div class="title_content mb-3 mt-3 ms-3">Bosses are unique enemies in Hollow Knight that typically have higher
-        health
-        or
-        deal
-        more damage than the standard creatures in the same area. The Knight may have to defeat a Boss to access a new
-        area, acquire an item, complete a quest, or simply further the main story of the game.
-        When the Knight encounters a boss, the name usually appears on-screen follow by the music changes into the boss
-        unique battle theme.
-        Counting the variations, there are 47 bosses in the game.
-      </div>
-    </div>
-    <div class="title_content ms-3 .container-sm">Original Bosses:</div>
 
-
-    <div class="container">
-
-      <div class="picture_row">
-        <div>
-          <img src="img/group_assignment.image/image 58.png">
-          <p>False Knight</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 59.png">
-          <p>Gruz Mother</p>
-        </div>
-        <div class="tablet_hide">
-          <img src="img/group_assignment.image/image 60.png">
-          <p>Hornet Protector</p>
-        </div>
-      </div>
-
-      <!-- Tablet picture row 3 4 -->
-      <div class="tablet_row">
-        <div>
-          <img src="img/group_assignment.image/image 60.png">
-          <p>Hornet Protector</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 61.png">
-          <p>Mantis Lords</p>
-        </div>
-      </div>
-
-      <div class="picture_row">
-        <div class="tablet_hide">
-          <img src="img/group_assignment.image/image 61.png">
-          <p>Mantis Lords</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 62.png">
-          <p>Massive Moss Charger</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 63.png">
-          <p>Soul Master</p>
-        </div>
-      </div>
-
-
-
-      <div class="picture_row">
-        <div>
-          <img src="img/group_assignment.image/image 64.png">
-          <p>Soul Warrior</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 65.png">
-          <p>Vengefly King</p>
-        </div>
-        <div class="tablet_hide">
-          <img src="img/group_assignment.image/image 66.png">
-          <p>Uumuu</p>
-        </div>
-      </div>
-
-      <!-- Tablet picture row 9 10 -->
-      <div class="tablet_row">
-        <div>
-          <img src="img/group_assignment.image/image 66.png">
-          <p>Uumuu</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 67.png">
-          <p>Watcher Knight</p>
-        </div>
-      </div>
-
-      <div class="picture_row">
-        <div class="tablet_hide">
-          <img src="img/group_assignment.image/image 67.png">
-          <p>Watcher Knight</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 68.png">
-          <p>Nosk</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 69.png">
-          <p>Brooding Mawlek</p>
-        </div>
-      </div>
-
-      <div class="picture_row">
-        <div>
-          <img src="img/group_assignment.image/image 70.png">
-          <p>The Collector</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 71.png">
-          <p>Crystal Guardian</p>
-        </div>
-        <div class="tablet_hide">
-          <img src="img/group_assignment.image/image 72.png">
-          <p>Dung Defender</p>
-        </div>
-      </div>
-
-      <!-- Tablet picture 15 16 -->
-      <div class="tablet_row">
-        <div>
-          <img src="img/group_assignment.image/image 72.png">
-          <p>Dung Defender</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 73.png">
-          <p>Flukemarm</p>
-        </div>
-      </div>
-
-      <div class="picture_row">
-        <div class="tablet_hide">
-          <img src="img/group_assignment.image/image 73.png">
-          <p>Flukemarm</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 74.png">
-          <p>Broken Vessel</p>
-        </div>
-        <div>
-          <img src="img/group_assignment.image/image 75.png">
-          <p>Oblobbles</p>
-        </div>
-      </div>
-
-      <div class="picture_row">
-        <div>
-          <img src="img/group_assignment.image/image 76.png">
-          <p>Traitor Lord</p>
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="title ms-3" id="warriorDreams">Warrior Dreams:</div>
-    <div class="title_content mt-3 ms-3">Dream bosses is a unique form of boss in that the Knight can only challenge
-      them once they have acquired the
-      Dream Nail. Defeating a Warrior Dream rewards a large amount of Essence.</div>
-
-    <div class="picture_row">
-      <div>
-        <img src="img/group_assignment.image/image 77.png">
-        <p>Elder Hu</p>
-      </div>
-      <div>
-        <img src="img/group_assignment.image/image 78.png">
-        <p>Galien</p>
-      </div>
-      <div class="tablet_hide">
-        <img src="img/group_assignment.image/image 79.png">
-        <p>Gorb</p>
-      </div>
-    </div>
-
-    <!-- Tablet picture row 22 23 -->
-    <div class="tablet_row">
-      <div>
-        <img src="img/group_assignment.image/image 79.png">
-        <p>Gorb</p>
-      </div>
-      <div>
-        <img src="img/group_assignment.image/image 80.png">
-        <p>Markoth</p>
-      </div>
-    </div>
-
-    <div class="picture_row">
-      <div class="tablet_hide">
-        <img src="img/group_assignment.image/image 80.png">
-        <p>Markoth</p>
-      </div>
-      <div>
-        <img src="img/group_assignment.image/image 81.png">
-        <p>Marmu</p>
-      </div>
-      <div>
-        <img src="img/group_assignment.image/image 82.png">
-        <p>No Eyes</p>
-      </div>
-    </div>
-
-  
-
-    <!--tablet-->
-    <div class="two-bottom_picture">
-      <div class="boss_picture d-flex justify-content-evenly text-center mt-5">
-
-        <div class="bosses_name mx-5 mb-5">
-          <img src="img/group_assignment.image/image 83.png" width="75%">
-          <div class="boss_name">
-            Xero
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--tablet-->
-
-    <div class="title ms-3">Fake-Out Bosses</div>
-    <div class=" title_content mt-3 ms-3">Bosses that include an intro sequence with a name card or a battle theme, but
-      are not fought and
-      have no purpose beyond being a joke or a surprise.</div>
-    <div class=" boss_picture  justify-content-evenly text-center boss_container">
-      <div class="bosses_name mx-5 mb-5 mt-5">
-        <img src="img/group_assignment.image/image 84.png" width="75%">
-        <div class="boss_name">
-          The Hunter
-        </div>
-      </div>
-
-      <div class="bosses_name mx-5 mt-5">
-        <img src="img/group_assignment.image/image 85.png" width="75%">
-        <div class="boss_name">
-          Galien
-        </div>
-      </div>
-    </div>
-    <div class="title ms-3 ">Joke Boss:</div>
-    <div class=" title_content mt-3 mb-3 ms-3">Bosses that include an intro sequence with a name card or a battle theme,
-      but are not fought
-      and
-      have no purpose beyond being a joke or a surprise.</div>
-    <div class=" boss_picture d-flex  text-center">
-      <div class="bosses_name ms-3 mb-3">
-        <img src="img/group_assignment.image/image 92.png" width="75%">
-        <div class="boss_name">
-          Zote
-        </div>
-      </div>
-    </div>
-    <div class=" title ms-3" id="godmaster">Godmaster Bosses:</div>
-    <div class=" title_content mt-3 mb-3 ms-3">Bosses that include an intro sequence with a name card or a battle theme,
-      but are not fought
-      and
-      have no purpose beyond being a joke or a surprise.</div>
-
-    <div class="boss_picture  justify-content-evenly text-center final_image boss_container">
-      <div class="bosses_name ms-4 mb-5 mt-5">
-        <img src="img/group_assignment.image/image 93.png" width="75%">
-        <div class="boss_name">
-          Brothers Oro & Mato
-        </div>
-      </div>
-
-      <div class="bosses_name  mt-5 mb-5 ms-4">
-        <img src="img/group_assignment.image/image 94.png" width="75%">
-        <div class="boss_name">
-          Great Nailsage Sly
-        </div>
-      </div>
-    </div>
-
-    <div class=" boss_picture d-flex justify-content-evenly text-center">
-      <div class="bosses_name  mb-5 ms-2 ">
-        <img src="img/group_assignment.image/image 95.png" width="75%">
-        <div class="boss_name">
-          Paintmaster Sheo
-        </div>
-      </div>
-    </div>
-  </div>
-  <script>
-    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
-    })
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-</script>
-
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
 </body>
 
 </html>
